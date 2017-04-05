@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1F3228B66EE9B37145A9795C /* Pods_MedicalGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B4DA1C6FB2CE3C369B589E /* Pods_MedicalGameUITests.framework */; };
+		825F405F1E95063000F9C35D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 825F405E1E95063000F9C35D /* GoogleService-Info.plist */; };
+		825F40601E95063000F9C35D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 825F405E1E95063000F9C35D /* GoogleService-Info.plist */; };
+		825F40611E95063000F9C35D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 825F405E1E95063000F9C35D /* GoogleService-Info.plist */; };
 		82FF43FD1E94DEDD00FCB621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF43FC1E94DEDD00FCB621 /* AppDelegate.swift */; };
 		82FF43FF1E94DEDD00FCB621 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF43FE1E94DEDD00FCB621 /* ViewController.swift */; };
 		82FF44021E94DEDD00FCB621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FF44001E94DEDD00FCB621 /* Main.storyboard */; };
@@ -15,9 +18,6 @@
 		82FF44071E94DEDD00FCB621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FF44051E94DEDD00FCB621 /* LaunchScreen.storyboard */; };
 		82FF44121E94DEDD00FCB621 /* MedicalGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF44111E94DEDD00FCB621 /* MedicalGameTests.swift */; };
 		82FF441D1E94DEDD00FCB621 /* MedicalGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF441C1E94DEDD00FCB621 /* MedicalGameUITests.swift */; };
-		82FF443B1E94E52F00FCB621 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82FF443A1E94E52F00FCB621 /* GoogleService-Info.plist */; };
-		82FF443C1E94E52F00FCB621 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82FF443A1E94E52F00FCB621 /* GoogleService-Info.plist */; };
-		82FF443D1E94E52F00FCB621 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82FF443A1E94E52F00FCB621 /* GoogleService-Info.plist */; };
 		AA6F801C255CF68BBB0D1B1C /* Pods_MedicalGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE827BFC2DFD29B91075B17 /* Pods_MedicalGameTests.framework */; };
 		E73167F2C18CBEE4FC519D23 /* Pods_MedicalGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 340A75FB8D87C02FA9DA42BD /* Pods_MedicalGame.framework */; };
 /* End PBXBuildFile section */
@@ -45,6 +45,7 @@
 		340A75FB8D87C02FA9DA42BD /* Pods_MedicalGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicalGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BA5A2512A0D8415BF7A39A /* Pods-MedicalGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalGameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalGameTests/Pods-MedicalGameTests.release.xcconfig"; sourceTree = "<group>"; };
 		56B4DA1C6FB2CE3C369B589E /* Pods_MedicalGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicalGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		825F405E1E95063000F9C35D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		82FF43F91E94DEDD00FCB621 /* MedicalGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FF43FC1E94DEDD00FCB621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82FF43FE1E94DEDD00FCB621 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +59,6 @@
 		82FF44181E94DEDD00FCB621 /* MedicalGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicalGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FF441C1E94DEDD00FCB621 /* MedicalGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalGameUITests.swift; sourceTree = "<group>"; };
 		82FF441E1E94DEDD00FCB621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82FF443A1E94E52F00FCB621 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8DE827BFC2DFD29B91075B17 /* Pods_MedicalGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicalGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A031E9A880C14BA2D8619D0 /* Pods-MedicalGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalGameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalGameUITests/Pods-MedicalGameUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D4D6B45DC2E81BD58BC4A396 /* Pods-MedicalGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalGameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalGameUITests/Pods-MedicalGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 				82FF44031E94DEDD00FCB621 /* Assets.xcassets */,
 				82FF44051E94DEDD00FCB621 /* LaunchScreen.storyboard */,
 				82FF44081E94DEDD00FCB621 /* Info.plist */,
-				82FF443A1E94E52F00FCB621 /* GoogleService-Info.plist */,
+				825F405E1E95063000F9C35D /* GoogleService-Info.plist */,
 			);
 			path = MedicalGame;
 			sourceTree = "<group>";
@@ -290,7 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82FF44071E94DEDD00FCB621 /* LaunchScreen.storyboard in Resources */,
-				82FF443B1E94E52F00FCB621 /* GoogleService-Info.plist in Resources */,
+				825F405F1E95063000F9C35D /* GoogleService-Info.plist in Resources */,
 				82FF44041E94DEDD00FCB621 /* Assets.xcassets in Resources */,
 				82FF44021E94DEDD00FCB621 /* Main.storyboard in Resources */,
 			);
@@ -300,7 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82FF443C1E94E52F00FCB621 /* GoogleService-Info.plist in Resources */,
+				825F40601E95063000F9C35D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82FF443D1E94E52F00FCB621 /* GoogleService-Info.plist in Resources */,
+				825F40611E95063000F9C35D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

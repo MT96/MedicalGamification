@@ -48,8 +48,7 @@ class ViewController: UIViewController {
         
         self.Dbref.child("Test").child("SavedString").observe(.value, with: { snapshot in
 
-            
-            if snapshot.exists(){
+                if snapshot.exists(){
                 
                 self.loadStuff.text! = snapshot.value as! String
 
