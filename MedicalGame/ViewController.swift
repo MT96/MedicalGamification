@@ -18,37 +18,48 @@ class ViewController: UIViewController {
     @IBOutlet weak var loadStuff: UITextField!
     
     var ref: FIRDatabaseReference!
+    var Dbref = FIRDatabase.database().reference()
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+       
       //  print("referensen till firebase är: ", ref)
         // Do any additional setup after loading the view, typically from a nib.
     }
    
     @IBAction func saveBtn(_ sender: Any) {
-                ref = FIRDatabase.database().reference()
-        self.ref.child("Test").setValue(["SavedString": saveStuff.text!])
+
+        self.Dbref.child("Test").setValue(["SavedString": saveStuff.text!])
     }
     
     @IBAction func LoadBtn(_ sender: Any) {
-        ref.child("Test").observeSingleEvent(of: .value, with: { (snapshot) in
-            //self.loadStuff.text! = snapshot.value as! String
-            let values = snapshot.value as! NSDictionary
-            
-            print("snapshot value is: ", snapshot)
-            self.loadStuff.text! = snapshot.value as! String
-        }) { (error) in
-            print(error.localizedDescription)
-
-    }
-    }
+        retrievedata()
+}
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func retrievedata()
+    {
+        print("running function RETRIEVEDATA")
+        
+        self.Dbref.child("Test").child("SavedString").observe(.value, with: { snapshot in
+
+            
+            if snapshot.exists(){
+                
+                self.loadStuff.text! = snapshot.value as! String
+
+                print(snapshot)
+                print("hejsanbamse")
+            }
+            
+        })
+    }
+
 
 
 }
