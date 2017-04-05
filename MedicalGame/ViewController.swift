@@ -35,9 +35,10 @@ class ViewController: UIViewController {
     @IBAction func LoadBtn(_ sender: Any) {
         ref.child("Test").observeSingleEvent(of: .value, with: { (snapshot) in
             //self.loadStuff.text! = snapshot.value as! String
-            //let values = snapshot.value as! NSDictionary
+            let values = snapshot.value as! NSDictionary
+            
             print("snapshot value is: ", snapshot)
-         //   self.loadStuff.text! = snapshot.value as! String
+            self.loadStuff.text! = snapshot.value as! String
         }) { (error) in
             print(error.localizedDescription)
 
