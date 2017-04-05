@@ -9,6 +9,7 @@ target 'MedicalGame' do
 pod 'Firebase/Core'
 pod 'Firebase/Database'
 pod 'Firebase/Auth'
+pod 'Firebase/Storage'
 
   target 'MedicalGameTests' do
     inherit! :search_paths

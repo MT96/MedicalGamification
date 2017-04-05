@@ -11,76 +11,85 @@ import Firebase
 import CoreData
 import FirebaseDatabase
 import FirebaseAuth
+import FirebaseStorage
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var saveStuff: UITextField!
     @IBOutlet weak var loadStuff: UITextField!
+    @IBOutlet weak var tableView: UITableView!
     
-    var ref: FIRDatabaseReference!
-    var Dbref = FIRDatabase.database().reference()
-    var userRef = FIRAuth.auth()?.currentUser?.uid
+    var ref: FIRDatabaseReference?
+    var databaseHandle:FIRDatabaseHandle?
     
- 
     
-
-
-    
-    var userArray = [String]()
+    var cardArray = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
-        FIRAuth.auth()?.signInAnonymously() { (user, error) in
-            let userRef = user!.uid
-                      // FIRAuth.auth()?.currentUser?.uid = userArray
+        
+        tableView.delegate =  self
+        tableView.dataSource = self
+        
+        
+        //firebase reference
+        ref = FIRDatabase.database().reference()
+        
+        //Retrieve the data and listen for changes
+        databaseHandle = ref?.child("Cards").observe(.childAdded, with: { (snapshot) in
             
-            //userArray.append(FIRAuth.auth()?.currentUser?.uid!(),
-            //userArray.append((FIRAuth.auth()?.currentUser)!) as! [String]
-           // let isAnonymous = user!.isAnonymous  // true
-            //let uid = user!.uid
-            self.userArray.append(userRef)
+        //Code to execute when a child is added under "Cards"
+        //Take the value from the snapshot and added it to the userArray array
+        let card = snapshot.value as? String
             
-            print("USER ID IS: ", userRef)
-            print("hej")
-            // ...
-        }
-       
-      //  print("referensen till firebase är: ", ref)
-        // Do any additional setup after loading the view, typically from a nib.
+        if let actualCard = card {
+        
+        //Append the data to our cardArray array
+        self.cardArray.append(actualCard)
+        
+        //Reload the tableview
+        self.tableView.reloadData()
+            
+            }
+        })
     }
+    
+        func tableView(_ tableView: UITableView, numberOfRowsInSection: Int) -> Int{
+            
+        return cardArray.count
+            
+        }
+        
+    func tableView(_ tableView: UITableView, cellForRowAt indexpath : IndexPath) -> UITableViewCell {
+            
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
+        cell?.textLabel?.text = cardArray[indexpath.row]
+            
+        return cell!
+            
+        }
    
     @IBAction func saveBtn(_ sender: Any) {
 
-        
-       let newref = self.Dbref.child("Test").childByAutoId()
-        let key = newref.key
-        newref.setValue(
-            ["test1": saveStuff.text!,
-             "ID": key,
-             //  "TaskID":
-            ])
-        
-         //let newref = FIRDatabase.database().reference().child("Tasks").child((FIRAuth.auth()?.currentUser?.uid)!).childByAutoId()
 
+    ref?.child("Cards").childByAutoId().setValue(saveStuff.text)
     
-        self.Dbref.child("Test").child("SavedString").child("UID").setValue(["UID":userRef])
-    }
+        }
     
     @IBAction func LoadBtn(_ sender: Any) {
         retrievedata()
-}
+        tableView.reloadData()
+        }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
+        }
     
-    func retrievedata()
-    {
+    func retrievedata(){
         print("running function RETRIEVEDATA")
         
-        self.Dbref.child("Test").child("SavedString").observe(.value, with: { snapshot in
+        self.ref?.child("Test").child("SavedString").observe(.value, with: { snapshot in
 
                 if snapshot.exists(){
                 
@@ -93,7 +102,10 @@ class ViewController: UIViewController {
         })
     }
 
-
-
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        // Dismiss the keyboard when the view is tapped on
+        saveStuff.resignFirstResponder()
+        loadStuff.resignFirstResponder()
+    }
 }
 

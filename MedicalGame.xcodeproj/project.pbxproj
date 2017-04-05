@@ -18,6 +18,8 @@
 		82FF44071E94DEDD00FCB621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FF44051E94DEDD00FCB621 /* LaunchScreen.storyboard */; };
 		82FF44121E94DEDD00FCB621 /* MedicalGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF44111E94DEDD00FCB621 /* MedicalGameTests.swift */; };
 		82FF441D1E94DEDD00FCB621 /* MedicalGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FF441C1E94DEDD00FCB621 /* MedicalGameUITests.swift */; };
+		A52762301E955696000E4BF3 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527622F1E955696000E4BF3 /* ComposeViewController.swift */; };
+		A52762331E958339000E4BF3 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52762321E958339000E4BF3 /* AuthViewController.swift */; };
 		AA6F801C255CF68BBB0D1B1C /* Pods_MedicalGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE827BFC2DFD29B91075B17 /* Pods_MedicalGameTests.framework */; };
 		E73167F2C18CBEE4FC519D23 /* Pods_MedicalGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 340A75FB8D87C02FA9DA42BD /* Pods_MedicalGame.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +63,8 @@
 		82FF441E1E94DEDD00FCB621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DE827BFC2DFD29B91075B17 /* Pods_MedicalGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicalGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A031E9A880C14BA2D8619D0 /* Pods-MedicalGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalGameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalGameUITests/Pods-MedicalGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A527622F1E955696000E4BF3 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		A52762321E958339000E4BF3 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		D4D6B45DC2E81BD58BC4A396 /* Pods-MedicalGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalGameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalGameUITests/Pods-MedicalGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E76D587FDF93907EECFB37C8 /* Pods-MedicalGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalGameTests/Pods-MedicalGameTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,8 +122,8 @@
 		82FF43FB1E94DEDD00FCB621 /* MedicalGame */ = {
 			isa = PBXGroup;
 			children = (
+				A52762311E957D26000E4BF3 /* Controllers */,
 				82FF43FC1E94DEDD00FCB621 /* AppDelegate.swift */,
-				82FF43FE1E94DEDD00FCB621 /* ViewController.swift */,
 				82FF44001E94DEDD00FCB621 /* Main.storyboard */,
 				82FF44031E94DEDD00FCB621 /* Assets.xcassets */,
 				82FF44051E94DEDD00FCB621 /* LaunchScreen.storyboard */,
@@ -145,6 +149,16 @@
 				82FF441E1E94DEDD00FCB621 /* Info.plist */,
 			);
 			path = MedicalGameUITests;
+			sourceTree = "<group>";
+		};
+		A52762311E957D26000E4BF3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A527622F1E955696000E4BF3 /* ComposeViewController.swift */,
+				82FF43FE1E94DEDD00FCB621 /* ViewController.swift */,
+				A52762321E958339000E4BF3 /* AuthViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		A854D8F2B420190B9AF0BE22 /* Frameworks */ = {
@@ -357,7 +371,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		88136E4EDBD4B99BCFB5DF08 /* [CP] Embed Pods Frameworks */ = {
@@ -402,7 +416,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		A384CC045CBE8A10102AF540 /* [CP] Copy Pods Resources */ = {
@@ -447,7 +461,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -457,6 +471,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A52762331E958339000E4BF3 /* AuthViewController.swift in Sources */,
+				A52762301E955696000E4BF3 /* ComposeViewController.swift in Sources */,
 				82FF43FF1E94DEDD00FCB621 /* ViewController.swift in Sources */,
 				82FF43FD1E94DEDD00FCB621 /* AppDelegate.swift in Sources */,
 			);
