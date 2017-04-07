@@ -38,9 +38,10 @@ class ComposeViewController: UIViewController {
         presentingViewController?.dismiss(animated: true, completion: nil)
     }
 
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override func touchesBegan (_ touches: Set<UITouch>, with event: UIEvent?) {
         // Dismiss the keyboard when the view is tapped on
         textView.resignFirstResponder()
+        self.view.endEditing(true)
        
     }
 
