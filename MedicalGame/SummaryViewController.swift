@@ -32,6 +32,12 @@ class SummaryViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func GobackPressed(_ sender: AnyObject) {
+        
+     
+        
+    
+    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "GoBack"{
@@ -43,6 +49,8 @@ class SummaryViewController: UIViewController {
         }
     }
     @IBAction func Master(_ sender: AnyObject) {
+        
+     
         
        self.performSegue(withIdentifier: "GoBack", sender: Any?.self)
     }

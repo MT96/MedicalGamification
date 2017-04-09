@@ -14,6 +14,10 @@ class MasterOrSlaveViewController: UIViewController {
     
     @IBOutlet weak var SignInButton: UIButton!
     
+    @IBOutlet weak var UsernameTextfield: UITextField!
+    
+    @IBOutlet weak var PasswordTextfield: UITextField!
+    
      var isSignIn:Bool = true
     
     
@@ -22,8 +26,64 @@ class MasterOrSlaveViewController: UIViewController {
         super.viewDidLoad()
 
         SignInButton.layer.cornerRadius = 4
+        
+        
+        MasterOrSlaveSegment.alpha = 0
+        SignInButton.alpha = 0
+        UsernameTextfield.alpha = 0
+        PasswordTextfield.alpha = 0
     
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        UIView.animate(withDuration: 1, animations: {
+            
+        }) { (true) in
+            self .funcShowAlphaObject()
+        }
+    }
+
+    func funcShowAlphaObject() {
+    
+        UIView.animate(withDuration: 0.5, animations: {
+            
+            self.MasterOrSlaveSegment.alpha = 1
+            
+            
+            }, completion: { (true) in
+            
+        self.showTextfields()
+            
+        })
+    
+    }
+    func showTextfields(){
+        
+        UIView.animate(withDuration: 1, animations: {
+            self.PasswordTextfield.alpha = 1
+            self.UsernameTextfield.alpha = 1
+     
+        
+        }) {(true) in
+        
+      self.button()
+        }
+    }
+    
+    func button(){
+        
+        UIView.animate(withDuration: 1, animations: {
+      
+            self.SignInButton.alpha = 1
+            
+        }) {(true) in
+            
+            
+        }
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -40,6 +100,7 @@ class MasterOrSlaveViewController: UIViewController {
         if isSignIn {
             
             self.performSegue(withIdentifier: "Slave", sender: Any?.self)
+        
             
         } else {
             

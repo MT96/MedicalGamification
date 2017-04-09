@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,27 +13,57 @@
                         <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" contentMode="scaleAspectFit" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="181H" translatesAutoresizingMaskIntoConstraints="NO" id="zPw-0i-pGe"/>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MediGame" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9z-2P-97u">
-                                <frame key="frameInset" minX="39" minY="240" width="279" height="116"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10" translatesAutoresizingMaskIntoConstraints="NO" id="zPw-0i-pGe"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MediGame" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9z-2P-97u">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="3AL-Fk-fLW"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="64"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <size key="shadowOffset" width="-0.10000000000000001" height="-0.10000000000000001"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medical studies gamified" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UrQ-Ub-M0c">
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="-0.10000000000000001" height="-0.10000000000000001"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Xt-NM-7d8">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CL965-24" translatesAutoresizingMaskIntoConstraints="NO" id="fsb-KI-SND"/>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="fsb-KI-SND" firstAttribute="top" secondItem="0Xt-NM-7d8" secondAttribute="top" id="6br-BO-Uf4"/>
+                                    <constraint firstItem="fsb-KI-SND" firstAttribute="centerX" secondItem="0Xt-NM-7d8" secondAttribute="centerX" id="OQ6-Nn-Fri"/>
+                                    <constraint firstItem="fsb-KI-SND" firstAttribute="leading" secondItem="0Xt-NM-7d8" secondAttribute="leading" constant="68" id="SAP-TW-8Pm"/>
+                                    <constraint firstAttribute="bottom" secondItem="fsb-KI-SND" secondAttribute="bottom" id="ccS-2J-EHc"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="zPw-0i-pGe" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="0Of-S1-w6o"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="zPw-0i-pGe" secondAttribute="trailing" id="HaX-CI-h8D"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="zPw-0i-pGe" secondAttribute="bottom" id="M0s-j7-Hxc"/>
-                            <constraint firstItem="zPw-0i-pGe" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="dkc-VL-aCU"/>
+                            <constraint firstItem="0Xt-NM-7d8" firstAttribute="top" secondItem="m9z-2P-97u" secondAttribute="bottom" constant="74" id="0Pc-YG-sNd"/>
+                            <constraint firstItem="m9z-2P-97u" firstAttribute="centerX" secondItem="UrQ-Ub-M0c" secondAttribute="centerX" id="1vo-Co-giZ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="0Xt-NM-7d8" secondAttribute="bottom" constant="203" id="4no-0p-V0p"/>
+                            <constraint firstAttribute="trailing" secondItem="UrQ-Ub-M0c" secondAttribute="trailing" constant="37" id="5EB-sM-aVA"/>
+                            <constraint firstItem="UrQ-Ub-M0c" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="37" id="Acv-gv-rY2"/>
+                            <constraint firstItem="0Xt-NM-7d8" firstAttribute="trailing" secondItem="zPw-0i-pGe" secondAttribute="trailing" id="BdV-UH-Zxa"/>
+                            <constraint firstAttribute="trailing" secondItem="zPw-0i-pGe" secondAttribute="trailing" id="DU8-bl-Z5u"/>
+                            <constraint firstItem="zPw-0i-pGe" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="IFb-nS-Gfx"/>
+                            <constraint firstItem="UrQ-Ub-M0c" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="241" id="JPs-Zz-ZMU"/>
+                            <constraint firstItem="0Xt-NM-7d8" firstAttribute="leading" secondItem="zPw-0i-pGe" secondAttribute="leading" id="UkW-ty-Zfd"/>
+                            <constraint firstItem="m9z-2P-97u" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="194" id="Xw8-xl-7uP"/>
+                            <constraint firstItem="0Xt-NM-7d8" firstAttribute="top" secondItem="UrQ-Ub-M0c" secondAttribute="bottom" constant="40" id="stB-tN-PHS"/>
+                            <constraint firstItem="zPw-0i-pGe" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="tHa-f9-mPW"/>
+                            <constraint firstItem="zPw-0i-pGe" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="vhw-n7-L46"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -44,6 +73,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="181H" width="5472" height="3648"/>
+        <image name="10" width="2000" height="1250"/>
+        <image name="CL965-24" width="1800" height="1800"/>
     </resources>
 </document>

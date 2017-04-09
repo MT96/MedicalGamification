@@ -1,4 +1,5 @@
 PODS:
+  - EasyAnimation (1.1.1)
   - Firebase/Auth (3.7.1):
     - Firebase/Core
     - FirebaseAuth (= 3.0.5)
@@ -36,14 +37,20 @@ PODS:
   - GoogleSymbolUtilities (1.1.2)
   - GoogleUtilities (1.3.2):
     - GoogleSymbolUtilities (~> 1.1)
+  - PCLBlurEffectAlert (1.1.0)
+  - TextFieldEffects (1.3.0)
 
 DEPENDENCIES:
+  - EasyAnimation
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
   - Firebase/Storage
+  - PCLBlurEffectAlert
+  - TextFieldEffects
 
 SPEC CHECKSUMS:
+  EasyAnimation: e67601df3eb57e86c570948a250ce162a5665b8a
   Firebase: be473484f0d515e72ffd04acf22f981773c23e58
   FirebaseAnalytics: 0533a00b681e08fd0b2cd0444b7ddf0ef9fd7a1a
   FirebaseAuth: 75a062bbf2d3c97d1e6e55bbc110e13a6853e25d
@@ -55,7 +62,9 @@ SPEC CHECKSUMS:
   GoogleNetworkingUtilities: 3edd3a8161347494f2da60ea0deddc8a472d94cb
   GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
   GoogleUtilities: 8bbc733218aad26306f9d4a253823986110e3358
+  PCLBlurEffectAlert: cf9fe1d142dad012fe806b96844e2cf72e0bd366
+  TextFieldEffects: ef594746f17997c813e07633f8ae5acaf9b04f27
 
-PODFILE CHECKSUM: be3cc55414813eec23046d38fd78aafdfbabe451
+PODFILE CHECKSUM: 9da472f8b81038fd157141084da8e3f54ff7297a
 
 COCOAPODS: 1.0.1
