@@ -93,7 +93,6 @@ class MasterViewController: UIViewController {
             StartButton.setTitle("Starta", for: .normal)
             
         }
-        
       
         
         
@@ -124,7 +123,6 @@ class MasterViewController: UIViewController {
                 destination.count = Roundtimer
             }
          
-            
         }
         
         if segue.identifier == "ViewScore"{

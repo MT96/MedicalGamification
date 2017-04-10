@@ -20,6 +20,7 @@ class MasterOrSlaveViewController: UIViewController {
     @IBOutlet weak var PasswordTextfield: UITextField!
     
      var isSignIn:Bool = true
+     var int = Int()
     
 
     override func viewDidLoad() {
@@ -97,18 +98,13 @@ class MasterOrSlaveViewController: UIViewController {
 
     @IBAction func SignInPressed(_ sender: AnyObject) {
         
+         int += 1
         //declare parameter as a dictionary which contains string as key and value combination. considering inputs are valid
         
         let parameters = ["Channel": UsernameTextfield.text!, "Nickname": PasswordTextfield.text!] as Dictionary<String, String>
         
-        
-        
-        var = json = JSONSerialization.data(with: parameters, options: .prettyPrinted)
-        
-        
-     /*
         //create the url with URL
-        let url = URL(string: "https://thawing-coast-61754.herokuapp.com/register/22")! //change the url
+        let url = URL(string: "https://thawing-coast-61754.herokuapp.com/register/\(int)")! //change the url
         
         //create the session object
         let session = URLSession.shared
@@ -122,7 +118,6 @@ class MasterOrSlaveViewController: UIViewController {
           
             
         } catch let error {
-            print("JSONSerial")
             print(error.localizedDescription)
         }
         
@@ -155,8 +150,7 @@ class MasterOrSlaveViewController: UIViewController {
             }
         })
         task.resume()
-         */
-        
+      
     }
     
 }
