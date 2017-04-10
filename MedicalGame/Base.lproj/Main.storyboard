@@ -766,7 +766,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="7" translatesAutoresizingMaskIntoConstraints="NO" id="dP1-6z-NKt"/>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Av-Zv-Pyl" customClass="OptionsView" customModule="MedicalGame" customModuleProvider="target">
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GdJ-4p-77K" customClass="KaedeTextField" customModule="TextFieldEffects">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Channel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GdJ-4p-77K" customClass="KaedeTextField" customModule="TextFieldEffects">
                                         <frame key="frameInset" minX="16" minY="24" width="343" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="textColor" red="0.69019607839999997" green="0.0" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
@@ -787,7 +787,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HuN-6u-vWS" customClass="KaedeTextField" customModule="TextFieldEffects">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nickname" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HuN-6u-vWS" customClass="KaedeTextField" customModule="TextFieldEffects">
                                         <frame key="frameInset" minX="16" minY="65" width="343" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="textColor" red="0.69019607839999997" green="0.0" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
@@ -847,7 +847,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="hvo-Sr-c6o"/>
                                 </constraints>
-                                <state key="normal" title="Sign in">
+                                <state key="normal" title="Join Game">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -979,8 +979,8 @@
         <image name="7" width="3000" height="2000"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="OVd-5H-4Ny"/>
         <segue reference="UK3-ow-4WC"/>
         <segue reference="V9c-uU-CiE"/>
-        <segue reference="cbw-Jc-Meb"/>
     </inferredMetricsTieBreakers>
 </document>
