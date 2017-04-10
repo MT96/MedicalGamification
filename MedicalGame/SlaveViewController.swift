@@ -151,8 +151,6 @@ class SlaveViewController: UIViewController {
     
     func update() {
         
-  
-        
        if(count > 0){
             let minutes = String(count / 60)
             let seconds = String(count % 60)
@@ -160,54 +158,7 @@ class SlaveViewController: UIViewController {
             count -= 1
         
                 
-            } /*
-            
-            if seconds == "2" || seconds == "6" || seconds == "12" || seconds == "18" || seconds == "24" || seconds == "30" || seconds == "36" || seconds == "42" || seconds == "47" {
-                
-                self.view.backgroundColor = UIColor.red
-                
             }
-            
-            if seconds == "3" || seconds == "7" || seconds == "13" || seconds == "19" || seconds == "25" || seconds == "31" || seconds == "37" || seconds == "43" || seconds == "48" {
-                
-                self.view.backgroundColor = UIColor.green
-                
-            }
-            
-            if seconds == "4" || seconds == "8" || seconds == "14" || seconds == "20" || seconds == "26" || seconds == "32" || seconds == "38" || seconds == "44" || seconds == "49" {
-                
-                self.view.backgroundColor = UIColor.blue
-                
-            }
-            
-            if seconds == "5" || seconds == "9" || seconds == "15" || seconds == "21" || seconds == "27" || seconds == "33" || seconds == "39" || seconds == "45" || seconds == "48" {
-                
-                self.view.backgroundColor = UIColor.purple
-                
-            }
-            
-            if seconds == "6" || seconds == "10" || seconds == "16" || seconds == "22" || seconds == "28" || seconds == "34" || seconds == "40" || seconds == "46" || seconds == "49" {
-                
-                self.view.backgroundColor = UIColor.brown
-                
-            }
-            
-            if seconds == "0.1" || seconds == "0.2" || seconds == "0.3" || seconds == "0.4" || seconds == "0.5" || seconds == "0.6" || seconds == "0.7" || seconds == "0.8" || seconds == "0.9" {
-                
-                self.view.backgroundColor = UIColor.brown
-                
-            }
-            
-     
-            
-         
-            if count == 39 {
-                
-                self.view.backgroundColor = UIColor.blue
-                
-            }
-           
-            */
             if count == 0 {
                 
        performSegue(withIdentifier: "Summary", sender: Any?.self)

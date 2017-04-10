@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class MasterOrSlaveViewController: UIViewController {
 
     @IBOutlet weak var MasterOrSlaveSegment: UISegmentedControl!
@@ -20,8 +21,7 @@ class MasterOrSlaveViewController: UIViewController {
     
      var isSignIn:Bool = true
     
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -97,7 +97,70 @@ class MasterOrSlaveViewController: UIViewController {
 
     @IBAction func SignInPressed(_ sender: AnyObject) {
         
-        if isSignIn {
+        //declare parameter as a dictionary which contains string as key and value combination. considering inputs are valid
+        
+        let parameters = ["Channel": UsernameTextfield.text!, "Nickname": PasswordTextfield.text!] as Dictionary<String, String>
+        
+        
+        
+        var = json = JSONSerialization.data(with: parameters, options: .prettyPrinted)
+        
+        
+     /*
+        //create the url with URL
+        let url = URL(string: "https://thawing-coast-61754.herokuapp.com/register/22")! //change the url
+        
+        //create the session object
+        let session = URLSession.shared
+        
+        //now create the URLRequest object using the url object
+        var request = URLRequest(url: url)
+        request.httpMethod = "PUT" //set http method as POST
+        
+        do {
+            request.httpBody = try JSONSerialization.data(withJSONObject: parameters, options: .prettyPrinted) // pass dictionary to nsdata object and set it as request body
+          
+            
+        } catch let error {
+            print("JSONSerial")
+            print(error.localizedDescription)
+        }
+        
+        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.addValue("application/json", forHTTPHeaderField: "Accept")
+        
+        //create dataTask using the session object to send data to the server
+        let task = session.dataTask(with: request as URLRequest, completionHandler: {data, response, error -> Void in
+            print("Response: \(response)")
+            print(error.debugDescription)
+            if(error != nil)
+            {
+                return
+            }
+            let strData = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)
+            print("Body: \(strData)")
+            
+            do {
+                let json = try JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as? NSDictionary
+                
+                print(json)
+                
+                json!.object(forKey: parameters)
+                
+            } catch {
+                print("ERROR call")
+            
+            } catch let error {
+                print(error.localizedDescription)
+            }
+        })
+        task.resume()
+         */
+        
+    }
+    
+}
+  /*  if isSignIn {
             
             self.performSegue(withIdentifier: "Slave", sender: Any?.self)
         
@@ -107,10 +170,7 @@ class MasterOrSlaveViewController: UIViewController {
             
             self.performSegue(withIdentifier: "Master", sender: Any?.self)
         }
-        
-        
-        
-    }
     
+    */
 
-}
+

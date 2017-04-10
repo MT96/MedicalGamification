@@ -11,7 +11,7 @@ pod 'Firebase/Database'
 pod 'Firebase/Auth'
 pod 'Firebase/Storage'
 pod 'TextFieldEffects'
-
+pod 'SwiftyJSON'
 pod 'EasyAnimation'
 
   target 'MedicalGameTests' do

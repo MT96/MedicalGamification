@@ -769,6 +769,7 @@
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Channel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GdJ-4p-77K" customClass="KaedeTextField" customModule="TextFieldEffects">
                                         <frame key="frameInset" minX="16" minY="24" width="343" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="textColor" red="0.69019607839999997" green="0.0" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -790,6 +791,7 @@
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nickname" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HuN-6u-vWS" customClass="KaedeTextField" customModule="TextFieldEffects">
                                         <frame key="frameInset" minX="16" minY="65" width="343" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="textColor" red="0.69019607839999997" green="0.0" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -981,6 +983,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="OVd-5H-4Ny"/>
         <segue reference="UK3-ow-4WC"/>
-        <segue reference="V9c-uU-CiE"/>
+        <segue reference="dzI-8x-Rf4"/>
     </inferredMetricsTieBreakers>
 </document>

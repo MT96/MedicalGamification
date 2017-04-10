@@ -21,7 +21,7 @@ class MasterViewController: UIViewController {
     
     var ExtraCards = [String]()
     
-    var Array = ["Karbapenem", "Kinolon", "Makrolid", "Glykopeptid", "Proteinsynteshämmare"]
+    //var Array = ["Karbapenem", "Kinolon", "Makrolid", "Glykopeptid", "Proteinsynteshämmare"]
     
     var Roundtimer = Int()
     var RandomIndex = Int()
@@ -38,7 +38,7 @@ class MasterViewController: UIViewController {
         ViewScoreButtonConstraints.constant -= view.bounds.width
         OptionButtonConstraint.constant -= view.bounds.width
 
-        var MergedArray = Array + ExtraCards
+       // var MergedArray = Array + ExtraCards
         
         
     }
@@ -76,13 +76,13 @@ class MasterViewController: UIViewController {
     
     @IBAction func StartStopButton(_ sender: AnyObject) {
         
-        var MergedArray = Array+ExtraCards as Array!
+      //  var MergedArray = Array+ExtraCards as Array!
         
         if StartButton.titleLabel?.text == "Starta" {
             
-            var randomIndex = Int(arc4random_uniform(UInt32((MergedArray?.count)!)))
+      //      var randomIndex = Int(arc4random_uniform(UInt32((MergedArray?.count)!)))
             
-            RandomWord.text = MergedArray?[randomIndex]
+       //     RandomWord.text = MergedArray?[randomIndex]
             
             StartButton.setTitle("Stopp", for: .normal)
             
