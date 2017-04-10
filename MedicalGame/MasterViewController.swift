@@ -67,6 +67,7 @@ class MasterViewController: UIViewController {
         
         animationPerformedOnce = true
     }
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
