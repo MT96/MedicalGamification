@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import PCLBlurEffectAlert
+
 
 class SlaveViewController: UIViewController {
 
@@ -55,17 +55,7 @@ class SlaveViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func callAlert() {
-        
-        let alert = PCLBlurEffectAlert.Controller(title: nil, message: "Not quite right", effect: UIBlurEffect(style: .light) , style: .alert)
-        
-        let alertBtn = PCLBlurEffectAlert.AlertAction(title: "Canel", style: .cancel, handler: nil)
-        
-        alert.addAction(alertBtn)
-       
-        alert.configure(cornerRadius: 5)
-        alert.show()
-    }
+
     
     
     
@@ -96,7 +86,7 @@ class SlaveViewController: UIViewController {
         } else {
             
             wrongMessage.isHidden = false
-            callAlert()
+            
         
         }
     }
@@ -110,7 +100,7 @@ class SlaveViewController: UIViewController {
         }else {
             
             wrongMessage.isHidden = false
-            callAlert()
+            
             
         }
     }
@@ -125,7 +115,7 @@ class SlaveViewController: UIViewController {
         }else {
             
             wrongMessage.isHidden = false
-            callAlert()
+            
         }
 
     }
@@ -139,7 +129,7 @@ class SlaveViewController: UIViewController {
         }else {
             
             wrongMessage.isHidden = false
-            callAlert()
+            
             
         
     }
@@ -153,7 +143,7 @@ class SlaveViewController: UIViewController {
         }else {
             
             wrongMessage.isHidden = false
-            callAlert()
+            
   
             
         }

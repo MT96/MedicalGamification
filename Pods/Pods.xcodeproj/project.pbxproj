@@ -7,175 +7,140 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		017ADFB77880F68ECF436BDF89F561E7 /* PCLBlurEffectAlert+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65C350A57219AFE051A24B33EB5849F /* PCLBlurEffectAlert+Action.swift */; };
-		066B73125D64AEE1FF9A511572927BC3 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70844AC53857AB4E0E83ABDE32D53284 /* AkiraTextField.swift */; };
-		07719086F0A1735ECC2AAA5D90F9E32A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		0C8C1DFED65B56AA6AF4E61FDF291848 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D218AAF29A07F6AE76FE8AB26BADA4 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1083DADA5C0679447E6AC8A1F88F1470 /* RBBSpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD8029B08ABF87C9C175F2BB3404CC1 /* RBBSpringAnimation.swift */; };
-		14A5225B0CCF029844F13E0DF5547A4C /* EasyAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD78694041C4A3493FDC1336069772D /* EasyAnimation-dummy.m */; };
-		18200BA1BE6CB74B0E5CFD17952B3A43 /* PCLBlurEffectAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F6A89618EA42BE6A7C9C14A7D08403C /* PCLBlurEffectAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28177FEEB575BC4D500807E2BA071256 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		07719086F0A1735ECC2AAA5D90F9E32A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		0CD6B7EC096756F419E09C3FB3992D2A /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690C0BD9B800A61624F1C1E5E46AF530 /* KaedeTextField.swift */; };
+		0FD9B927A723E1B4B0C49DEA7D934474 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011C428420C4042BC63281303A072D8 /* MadokaTextField.swift */; };
+		1083DADA5C0679447E6AC8A1F88F1470 /* RBBSpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CB3927820ED9E98A6E151F800288FB /* RBBSpringAnimation.swift */; };
+		14A5225B0CCF029844F13E0DF5547A4C /* EasyAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B115AA586FEFF78881C9BF650A71AC6 /* EasyAnimation-dummy.m */; };
 		3356089A17618C70AF2A287DC8F5C0E8 /* Pods-MedicalGameTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A36BC6B96B51FDE33B16BD97EFF98EC1 /* Pods-MedicalGameTests-dummy.m */; };
-		3419929618C06CD2037057F9A5013593 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B9F178CED96B8EF3998EEDDF945E3E /* YokoTextField.swift */; };
-		38CFF9D208A2F121DEAB739FA3A791A7 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F518716D22338F5923BDA0E41372775E /* YoshikoTextField.swift */; };
-		3B80CC5C48393A5D7345045D8CF1F145 /* RBBLinearInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2955D6A1B42E5605ABF70231DC9928EE /* RBBLinearInterpolation.swift */; };
-		3EB7F5178352793FF707E5769F53FDF0 /* PCLBlurEffectAlert+Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECFDAF0349FD0171D18B1556ED859E4 /* PCLBlurEffectAlert+Controller.swift */; };
+		3B80CC5C48393A5D7345045D8CF1F145 /* RBBLinearInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1290D377617D2B161E5CEDBD8D5E638 /* RBBLinearInterpolation.swift */; };
 		449084CB6E94B5E973330D32BAF9CF95 /* Pods-MedicalGameTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1C6C453384419EA3EAFFBE6F8729E3 /* Pods-MedicalGameTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D2C0293326D4AEE5D6E9F53DE302361 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D907A56F8CA0F01D3142F93EB0F64 /* MadokaTextField.swift */; };
-		4F39514410352D2CF43892A89865AB49 /* EasyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DCAF3728D92AD49C83749CF64FF069 /* EasyAnimation.swift */; };
+		4A2BDAC9713D834C71426B29C9CA73DC /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2E993275E71C7BA5043E099A69634 /* AkiraTextField.swift */; };
+		4F39514410352D2CF43892A89865AB49 /* EasyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D2CB234CEBB04554C433CC3616C0E /* EasyAnimation.swift */; };
 		5047B33D3671177050D5B2F834D6520A /* Pods-MedicalGameUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C45BCC625ED30E3CAA8F561C3564CFF /* Pods-MedicalGameUITests-dummy.m */; };
-		596342074842B810CA5F6EB17455B491 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DEE26A57074B41BED252D125D20208 /* KaedeTextField.swift */; };
+		52D6A52306329C44E1A852019FEB6293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5BA193EF303C8ACAB44B847947F22E5A /* Pods-MedicalGame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AC01FA7B94F539F5A80CC1F4A09C4D /* Pods-MedicalGame-dummy.m */; };
 		6A3B9D39CA89998B5101134508F2821C /* Pods-MedicalGameUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 486034BD37DA0626A6046912CCFC3F20 /* Pods-MedicalGameUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6ACFD27D20E7ED815B4EC19245E9545B /* PCLBlurEffectAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64670ED2094A5504A834A345A9830C5C /* PCLBlurEffectAlert-dummy.m */; };
-		83A070FAF021135EE8158E4C5FFE3E61 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEB3F05B215EA47E94386E25A6FA898 /* JiroTextField.swift */; };
-		961D0ECC07EE956696D62D69E1FA1504 /* PCLBlurEffectAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = AE693A3E1B557EFE493F529B134E3791 /* PCLBlurEffectAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C106EC88DB7886A3DEB4C8EB41B67CC /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9F9D2B8A8B7F63AFA3AEF3D82A14A /* IsaoTextField.swift */; };
-		A53934C44C8E504DF5472D47DBEBFC1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		B1F52E9FAA170D2DEE08F546EEBD0D8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		B4C037386A6090BB66592FFE2EEB8D20 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D6F129DB188350F0CC0680A62070D3 /* MinoruTextField.swift */; };
-		B5F514790F56607EABDE0BD3FDD3FD96 /* RBBBlockBasedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEB545AD89C90A5201DD144E2CD347D /* RBBBlockBasedArray.swift */; };
-		BDBBD8845CE9D7AF7CE68A98FEC70260 /* PCLBlurEffectAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D83774D7CB33513B13A6CEABDCF5F14 /* PCLBlurEffectAlert.swift */; };
-		BEF65BEA8DB23C1D0606517D152935A0 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90FDD65DE9120EFB8B57DF8E2059175 /* HoshiTextField.swift */; };
-		C1B8FD1AE3ECC069B0D27DB4EDDDD6D0 /* Pods-MedicalGame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AC01FA7B94F539F5A80CC1F4A09C4D /* Pods-MedicalGame-dummy.m */; };
-		C81CC9E62DEC1AE1145F45AB30A64D0B /* EAAnimationFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A5F781826A56FDB8E1FFF83C2A8E2D /* EAAnimationFuture.swift */; };
-		CA72DAF32203390D1F9334BD9BA46FAC /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E563DE679FEAE227378B374961ABB1E /* TextFieldsEffects.swift */; };
-		D0CA1D45496BD57F668B901DCA83E871 /* EasyAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D53CB403D1F0B0C5ECA7985010FFAC /* EasyAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D42F4DFFCEE3FF3186472C6F70E7D11B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		E214C412A31FF9A1664636B2EE7A696E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		F37F46FD673D3F439854CFDAFB1D9AA2 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C6161C09DA11AD7492B704F807B6A /* TextFieldEffects-dummy.m */; };
-		F4C96DCA1F9C01755DE1718AE9B8E50A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		F97D632857613D50690EE87DE8C716CE /* Pods-MedicalGame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E96484C5299E894B31D437AAA188BA /* Pods-MedicalGame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		753B7BFD37407874DC9EA121D929D670 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6397233BAF18460CAAA54A76FFBB50D /* YokoTextField.swift */; };
+		7C9F7ABA5C1EC4F949273F89E589F30C /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76325F510013163F8B12B2F99B88F438 /* TextFieldEffects-dummy.m */; };
+		866DEEB140CFF4083D999A89B54213BA /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE04FC009A915447C6E738B9E08E7E5 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A53C14534DBCA512DE6DA6969EA6E57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		AA23B7A28249B4A6D08CEE50D236B4A1 /* Pods-MedicalGame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E96484C5299E894B31D437AAA188BA /* Pods-MedicalGame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B05B09759D7DBED1451151969B2C049C /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CAB4B03454DB8EAF05AA1C5FCF58F /* TextFieldsEffects.swift */; };
+		B1F52E9FAA170D2DEE08F546EEBD0D8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B5F514790F56607EABDE0BD3FDD3FD96 /* RBBBlockBasedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83347F57022BEB796275578EFDD9D29D /* RBBBlockBasedArray.swift */; };
+		BAD4EF669D7078FFBB89EB1DF80FCBD7 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC9A17C507862E41D788E4D03F506F /* IsaoTextField.swift */; };
+		C81CC9E62DEC1AE1145F45AB30A64D0B /* EAAnimationFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0317CECA21EF043C3117883772240C5 /* EAAnimationFuture.swift */; };
+		D0CA1D45496BD57F668B901DCA83E871 /* EasyAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D23CB64A5FDFA86B105082D4C0EDB1EE /* EasyAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D24CCAB5E5BD26398A4458179EF4BBD1 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BFBB84DF377D549A1061AD19432F3A /* JiroTextField.swift */; };
+		D9DEDD705827D4E1E972D64432F6354C /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604CD499D96B2F991A7C39B9759F320E /* MinoruTextField.swift */; };
+		E1FCF43BB07D8AEEC9272988BF5D7539 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA881EF2C3D6E294840144188230E05 /* YoshikoTextField.swift */; };
+		E214C412A31FF9A1664636B2EE7A696E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F61626DB14BDCBDED5ABB3AB463FA9D5 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8109614850E3E6FAEAA63724A7F8CCFE /* HoshiTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1CDE85702F7D518EB2558CD662071B0B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A1FE4E7777C6B963B963A9FBEC603519;
-			remoteInfo = PCLBlurEffectAlert;
-		};
-		FAA15E50DF0C9F59AB5B63ED2B94BBDC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BEEFB17DAC92DA316153B58310A4F7FC;
-			remoteInfo = TextFieldEffects;
-		};
-		FD246BC5CC9A1A2070757CEF2A179EF6 /* PBXContainerItemProxy */ = {
+		80E5B5B4CC9760DE2C69A46A3D0D72A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A376E868ED408EE8EEBD1DDBCE639EF5;
 			remoteInfo = EasyAnimation;
 		};
+		83472F56E120799A3C5C035BD17D64B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20F920DBFA68F0D089A0FB6A5656EA86;
+			remoteInfo = TextFieldEffects;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0325EF07B466FA8B87568C12CE80383E /* EasyAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0106F316BC4877807A6241C8F7AF086C /* EasyAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyAnimation-prefix.pch"; sourceTree = "<group>"; };
 		03FDAF013495F41B7A94677062F2C78C /* Pods-MedicalGameUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedicalGameUITests-resources.sh"; sourceTree = "<group>"; };
-		09D53CB403D1F0B0C5ECA7985010FFAC /* EasyAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyAnimation-umbrella.h"; sourceTree = "<group>"; };
-		0B9D907A56F8CA0F01D3142F93EB0F64 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		0F39BE16FEEEEB5C187D2DF70D5788ED /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		1093DD4F74B8CBD92E5F91E6ABB1CA64 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		109E345A1E77C6EA23C77CEBB2E2013F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12047B523476F6AA445476A026A4602A /* Pods-MedicalGameTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedicalGameTests-resources.sh"; sourceTree = "<group>"; };
-		13D6F129DB188350F0CC0680A62070D3 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
 		1414740D62E3CD0D1EA6226D68B01A27 /* Pods-MedicalGameTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MedicalGameTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		18DEE26A57074B41BED252D125D20208 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
-		21DCAF3728D92AD49C83749CF64FF069 /* EasyAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyAnimation.swift; path = EasyAnimation/EasyAnimation.swift; sourceTree = "<group>"; };
+		1B115AA586FEFF78881C9BF650A71AC6 /* EasyAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyAnimation-dummy.m"; sourceTree = "<group>"; };
+		2011C428420C4042BC63281303A072D8 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
 		2525B6D4C8198ECA8ADA031FDAEE770E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2955D6A1B42E5605ABF70231DC9928EE /* RBBLinearInterpolation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RBBLinearInterpolation.swift; path = EasyAnimation/RBBSpringAnimation/RBBLinearInterpolation.swift; sourceTree = "<group>"; };
-		2ECFDAF0349FD0171D18B1556ED859E4 /* PCLBlurEffectAlert+Controller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PCLBlurEffectAlert+Controller.swift"; path = "PCLBlurEffectAlert/PCLBlurEffectAlert+Controller.swift"; sourceTree = "<group>"; };
-		31DE96A5EBD8C09E5D31E6F282B16420 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		252CC9A6167429EEBF5E78F9256A4EDD /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 		31E96484C5299E894B31D437AAA188BA /* Pods-MedicalGame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MedicalGame-umbrella.h"; sourceTree = "<group>"; };
 		34C57674D1DA130D2EF45CDDC2542DA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34CC231BFC57912268EEBC99CEB94822 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 		37EDF658D44E5A56A0A8140003042DC8 /* Pods-MedicalGame-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedicalGame-resources.sh"; sourceTree = "<group>"; };
 		3970F9732706E730A3CE74CCD86602F8 /* Pods-MedicalGame-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedicalGame-acknowledgements.plist"; sourceTree = "<group>"; };
 		3A14C4B13CFE8C81B3A345968AE5CBBB /* Pods-MedicalGame-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedicalGame-frameworks.sh"; sourceTree = "<group>"; };
-		3D7C8C280AEDB5D06E5DF4D712D8D632 /* PCLBlurEffectAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PCLBlurEffectAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2CAB4B03454DB8EAF05AA1C5FCF58F /* TextFieldsEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldsEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldsEffects.swift; sourceTree = "<group>"; };
+		3F8396BDF16D366E1F3AF286B240A1CD /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		44094C183A2A508187AD2ADEBDE7E8AB /* Pods-MedicalGameUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MedicalGameUITests.modulemap"; sourceTree = "<group>"; };
 		47DC3A52A2CDD320B0A109599A152BE6 /* Pods-MedicalGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedicalGameUITests.release.xcconfig"; sourceTree = "<group>"; };
 		480BDD94E0D785B39B57458D932E5CEA /* Pods-MedicalGame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MedicalGame.modulemap"; sourceTree = "<group>"; };
 		486034BD37DA0626A6046912CCFC3F20 /* Pods-MedicalGameUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MedicalGameUITests-umbrella.h"; sourceTree = "<group>"; };
-		4C3975BA0C1DB4B43BCBE7F70D8185FB /* EasyAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EasyAnimation.modulemap; sourceTree = "<group>"; };
+		4B44EBCA01423023D40C29D51F1EA371 /* Pods_MedicalGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicalGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE04FC009A915447C6E738B9E08E7E5 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
 		4F1C6C453384419EA3EAFFBE6F8729E3 /* Pods-MedicalGameTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MedicalGameTests-umbrella.h"; sourceTree = "<group>"; };
-		4FEB3F05B215EA47E94386E25A6FA898 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
-		50B2CD188F48B83E4456A2BD73A62E15 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
-		526562B54CB12330B2E14B771C1F46AF /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		57D2E993275E71C7BA5043E099A69634 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		5BA881EF2C3D6E294840144188230E05 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
 		5C11DA4B544E462DED8443E08F0C1482 /* Pods-MedicalGameUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MedicalGameUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5DEF57D2C9C53AA164759F63B40C3543 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		604CD499D96B2F991A7C39B9759F320E /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
 		63B018C6E57FCEC692EB1ED3DCF2DEB8 /* Pods-MedicalGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedicalGameTests.release.xcconfig"; sourceTree = "<group>"; };
-		64670ED2094A5504A834A345A9830C5C /* PCLBlurEffectAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PCLBlurEffectAlert-dummy.m"; sourceTree = "<group>"; };
-		67BB0F81A7F254902188487A4E8FD5D1 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		63BFBB84DF377D549A1061AD19432F3A /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
 		69031B578852FBD5389245346DD55369 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6CBBB2464F4B420EFED1BF7DFD984037 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D83774D7CB33513B13A6CEABDCF5F14 /* PCLBlurEffectAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PCLBlurEffectAlert.swift; path = PCLBlurEffectAlert/PCLBlurEffectAlert.swift; sourceTree = "<group>"; };
-		70844AC53857AB4E0E83ABDE32D53284 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
-		72B78350ECE658F538FC9BE2A07B0DCD /* EasyAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyAnimation.xcconfig; sourceTree = "<group>"; };
+		690C0BD9B800A61624F1C1E5E46AF530 /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		6969AF0BA580F2236047F28F12690F8E /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		698D240E5823CC1CA16DE2B75A843F54 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
 		73EF2D16A6D47E2538879285EC096BD9 /* Pods-MedicalGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedicalGame.release.xcconfig"; sourceTree = "<group>"; };
-		7BB9F9D2B8A8B7F63AFA3AEF3D82A14A /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		76325F510013163F8B12B2F99B88F438 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
 		80EADA4DBCDB2CFFF17620900C180289 /* Pods-MedicalGameTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MedicalGameTests.modulemap"; sourceTree = "<group>"; };
+		8109614850E3E6FAEAA63724A7F8CCFE /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		83347F57022BEB796275578EFDD9D29D /* RBBBlockBasedArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RBBBlockBasedArray.swift; path = EasyAnimation/RBBSpringAnimation/RBBBlockBasedArray.swift; sourceTree = "<group>"; };
 		87023AEC522C5DC1918825CE62912762 /* Pods-MedicalGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedicalGame.debug.xcconfig"; sourceTree = "<group>"; };
-		8B954EB1CC178F038758F92657861066 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
-		8BB584853A206CA08976769D83EC9013 /* EasyAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyAnimation-prefix.pch"; sourceTree = "<group>"; };
 		8C45BCC625ED30E3CAA8F561C3564CFF /* Pods-MedicalGameUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MedicalGameUITests-dummy.m"; sourceTree = "<group>"; };
-		8DE6832E8CEE23FDBA119F568E8A9F65 /* Pods_MedicalGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicalGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECC9A17C507862E41D788E4D03F506F /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
 		90477E79D966F027E3841575CE6DCB10 /* Pods-MedicalGameUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedicalGameUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E563DE679FEAE227378B374961ABB1E /* TextFieldsEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldsEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldsEffects.swift; sourceTree = "<group>"; };
-		9F6A89618EA42BE6A7C9C14A7D08403C /* PCLBlurEffectAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PCLBlurEffectAlert-umbrella.h"; sourceTree = "<group>"; };
-		A0D6AEDD5F9B2A8FFE5526C29BB72FDF /* PCLBlurEffectAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PCLBlurEffectAlert-prefix.pch"; sourceTree = "<group>"; };
-		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		974EB18A803D368F9097D751219F07D1 /* Pods_MedicalGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicalGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2676B7F13A057BCD5CCB1B8747703C /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		9E4C369EE4ECFF22E6F5CC3A629BBA21 /* Pods_MedicalGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicalGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E9F8458CF0397224590259A7C57DF0C /* EasyAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36BC6B96B51FDE33B16BD97EFF98EC1 /* Pods-MedicalGameTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MedicalGameTests-dummy.m"; sourceTree = "<group>"; };
-		A5CC07B163C28C7C9B644719958F6F6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6397233BAF18460CAAA54A76FFBB50D /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		A6CB3927820ED9E98A6E151F800288FB /* RBBSpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RBBSpringAnimation.swift; path = EasyAnimation/RBBSpringAnimation/RBBSpringAnimation.swift; sourceTree = "<group>"; };
 		A7F32EA28755D788D8D827C322D2A2BC /* Pods-MedicalGame-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MedicalGame-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A93C6EB2D5C9873EC7F6754829788A43 /* Pods-MedicalGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedicalGameTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AE693A3E1B557EFE493F529B134E3791 /* PCLBlurEffectAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PCLBlurEffectAlert.h; path = PCLBlurEffectAlert/PCLBlurEffectAlert.h; sourceTree = "<group>"; };
-		B33C6161C09DA11AD7492B704F807B6A /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		B0317CECA21EF043C3117883772240C5 /* EAAnimationFuture.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EAAnimationFuture.swift; path = EasyAnimation/EAAnimationFuture.swift; sourceTree = "<group>"; };
 		B8AC01FA7B94F539F5A80CC1F4A09C4D /* Pods-MedicalGame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MedicalGame-dummy.m"; sourceTree = "<group>"; };
-		B90FDD65DE9120EFB8B57DF8E2059175 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
-		BA24F85511E3699E64A5F0C3F29272CE /* Pods_MedicalGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicalGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD5D11BDCDC4B7F21AA80F45A8E70179 /* Pods_MedicalGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicalGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDD78694041C4A3493FDC1336069772D /* EasyAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyAnimation-dummy.m"; sourceTree = "<group>"; };
-		BE9BA198D8EFA307F784043A077F36CF /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		C1D218AAF29A07F6AE76FE8AB26BADA4 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
-		C2A5F781826A56FDB8E1FFF83C2A8E2D /* EAAnimationFuture.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EAAnimationFuture.swift; path = EasyAnimation/EAAnimationFuture.swift; sourceTree = "<group>"; };
-		C4DDA194D34B65D270F2F37EDC2E20B1 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
-		C889EC7A8D28F14FBD5EC0028122EB00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCE08177210BA0661FFA4C1E58D09269 /* PCLBlurEffectAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PCLBlurEffectAlert.modulemap; sourceTree = "<group>"; };
+		B98D2CB234CEBB04554C433CC3616C0E /* EasyAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyAnimation.swift; path = EasyAnimation/EasyAnimation.swift; sourceTree = "<group>"; };
+		C4B9E1C75883ED8722A5619D5BCB3499 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFAB5FD7A4B451CF4D43C933B2739C0B /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		D23CB64A5FDFA86B105082D4C0EDB1EE /* EasyAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyAnimation-umbrella.h"; sourceTree = "<group>"; };
+		D639B263946FBBE9474FA85462DF6750 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
 		D72B709BAB1540EFF4596D0ABCDD2985 /* Pods-MedicalGameTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedicalGameTests-frameworks.sh"; sourceTree = "<group>"; };
 		D75D7A33CA173BD4F55BD5DB7CBA3442 /* Pods-MedicalGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedicalGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		DA3DD6EC99970D3C400E0C49E7FE7409 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		DB0C206019F1A7627C9E271246A7D0F9 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
-		DC421BF0CA8F171637DED144F57DB810 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
-		DFD8029B08ABF87C9C175F2BB3404CC1 /* RBBSpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RBBSpringAnimation.swift; path = EasyAnimation/RBBSpringAnimation/RBBSpringAnimation.swift; sourceTree = "<group>"; };
-		E4B9F178CED96B8EF3998EEDDF945E3E /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
-		E65C350A57219AFE051A24B33EB5849F /* PCLBlurEffectAlert+Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PCLBlurEffectAlert+Action.swift"; path = "PCLBlurEffectAlert/PCLBlurEffectAlert+Action.swift"; sourceTree = "<group>"; };
-		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		EAF3109F6D590A5489AE29F22F578504 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
-		EB0C21C8DF295F9C225F3FEBF5EA1FFE /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		D7B279007B79B9A3BA9C656D0BE8BD88 /* EasyAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyAnimation.xcconfig; sourceTree = "<group>"; };
+		DA03BE0E29BB84496A0CDCB4448063E0 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		DC4D908CAE7C4712DDED8188CF7F6E89 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		E2A469C9322D2CEC2E4E5B854A46BA58 /* EasyAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EasyAnimation.modulemap; sourceTree = "<group>"; };
+		E4548378428E737A3667B7D0D42818A8 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		E5BE19166129A534CE628CFD106F78C5 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		EA8EC4BC8A7FA65C669E0C3C4CC505DC /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
 		EC1A0AE6945B4048E60267F7DD881F53 /* Pods-MedicalGameUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedicalGameUITests-frameworks.sh"; sourceTree = "<group>"; };
-		ECBE69C6E23845B20E51856BD142949D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF2810E3F3C6585A24EDB828EE282F9C /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
-		EFEB545AD89C90A5201DD144E2CD347D /* RBBBlockBasedArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RBBBlockBasedArray.swift; path = EasyAnimation/RBBSpringAnimation/RBBBlockBasedArray.swift; sourceTree = "<group>"; };
-		F518716D22338F5923BDA0E41372775E /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
-		F8489B6998EBC639064F08AFB71897C7 /* PCLBlurEffectAlert.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PCLBlurEffectAlert.xcconfig; sourceTree = "<group>"; };
-		FADD51EA75477FA9322C825DC62D6B96 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		F1290D377617D2B161E5CEDBD8D5E638 /* RBBLinearInterpolation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RBBLinearInterpolation.swift; path = EasyAnimation/RBBSpringAnimation/RBBLinearInterpolation.swift; sourceTree = "<group>"; };
+		F252F4079FF6AD0DDBB65917B5A7FBD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBE36952815C8B29792066AA6D3ADEB5 /* Pods-MedicalGameTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedicalGameTests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0498C4771987F7836F5192E19330A00E /* Frameworks */ = {
+		552A5B59FB4EF112B668D2E9E27C16A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4C96DCA1F9C01755DE1718AE9B8E50A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2077A296DC4836DEBB30B8A4347CA092 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A53934C44C8E504DF5472D47DBEBFC1F /* Foundation.framework in Frameworks */,
+				8A53C14534DBCA512DE6DA6969EA6E57 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,12 +152,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E697F8F53E8660EEE672F820AB082A0 /* Frameworks */ = {
+		9B151E06A98A19865428D056FB6241D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D42F4DFFCEE3FF3186472C6F70E7D11B /* Foundation.framework in Frameworks */,
-				28177FEEB575BC4D500807E2BA071256 /* UIKit.framework in Frameworks */,
+				52D6A52306329C44E1A852019FEB6293 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,35 +179,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		041562ACDA9B6E67BE797CAFE9E3680E /* FirebaseInstanceID */ = {
+		0D8E25A9EDF2FFA2F5B8132D5AC6A193 /* FirebaseAuth */ = {
 			isa = PBXGroup;
 			children = (
-				DB0C206019F1A7627C9E271246A7D0F9 /* FIRInstanceID.h */,
-				A85C8885BDAEBE9EEDEFC24E9AAE2D42 /* Frameworks */,
+				250DD9BFB6C681925F3389F856C9E43C /* Frameworks */,
 			);
-			path = FirebaseInstanceID;
+			path = FirebaseAuth;
 			sourceTree = "<group>";
 		};
-		054BE281C7DE86E1569B3405A4D64BDD /* GoogleNetworkingUtilities */ = {
+		12BE460C1E76BB7401376280DF8052F4 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				B6FF714EE97FC0BBF344A17E95AF9622 /* Frameworks */,
+				0F39BE16FEEEEB5C187D2DF70D5788ED /* Firebase.h */,
 			);
-			path = GoogleNetworkingUtilities;
+			name = Core;
 			sourceTree = "<group>";
 		};
-		067FF50777239C38AAFBCF02B2B1264E /* Support Files */ = {
+		182F34F36F00344D20E0A48910BC4561 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4C3975BA0C1DB4B43BCBE7F70D8185FB /* EasyAnimation.modulemap */,
-				72B78350ECE658F538FC9BE2A07B0DCD /* EasyAnimation.xcconfig */,
-				BDD78694041C4A3493FDC1336069772D /* EasyAnimation-dummy.m */,
-				8BB584853A206CA08976769D83EC9013 /* EasyAnimation-prefix.pch */,
-				09D53CB403D1F0B0C5ECA7985010FFAC /* EasyAnimation-umbrella.h */,
-				A5CC07B163C28C7C9B644719958F6F6F /* Info.plist */,
+				E5BE19166129A534CE628CFD106F78C5 /* GoogleInterchangeUtilities.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/EasyAnimation";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		1B692F61147DA2532DBEECD4E176DC7D /* Pods-MedicalGameUITests */ = {
@@ -264,33 +221,20 @@
 			path = "Target Support Files/Pods-MedicalGameUITests";
 			sourceTree = "<group>";
 		};
-		1C4B6A20C2FA09E120E093129ACEF0B6 /* EasyAnimation */ = {
+		250DD9BFB6C681925F3389F856C9E43C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C2A5F781826A56FDB8E1FFF83C2A8E2D /* EAAnimationFuture.swift */,
-				21DCAF3728D92AD49C83749CF64FF069 /* EasyAnimation.swift */,
-				EFEB545AD89C90A5201DD144E2CD347D /* RBBBlockBasedArray.swift */,
-				2955D6A1B42E5605ABF70231DC9928EE /* RBBLinearInterpolation.swift */,
-				DFD8029B08ABF87C9C175F2BB3404CC1 /* RBBSpringAnimation.swift */,
-				067FF50777239C38AAFBCF02B2B1264E /* Support Files */,
-			);
-			path = EasyAnimation;
-			sourceTree = "<group>";
-		};
-		1FD8107D8EBF51578E3183AD23AD3C1B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EF2810E3F3C6585A24EDB828EE282F9C /* FirebaseDatabase.framework */,
+				D639B263946FBBE9474FA85462DF6750 /* FirebaseAuth.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		293E5DF9F507567C3BCC13894AE383F7 /* GoogleUtilities */ = {
+		2944FB8F9FCB8E6D4E9A478CEE2F2AA3 /* FirebaseCore */ = {
 			isa = PBXGroup;
 			children = (
-				4894FD336970C8A7E9830001740F84B3 /* Frameworks */,
+				5E73906C922D271DEF751CF07F6E5052 /* Frameworks */,
 			);
-			path = GoogleUtilities;
+			path = FirebaseCore;
 			sourceTree = "<group>";
 		};
 		29D4AD7127758E687A4A04ADDBD63AFC /* Targets Support Files */ = {
@@ -303,12 +247,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2FC95B254AA9A029FB1CB42E1F251ADB /* Frameworks */ = {
+		2B591B06E86DF0294948174A47AFE91D /* FirebaseAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				67BB0F81A7F254902188487A4E8FD5D1 /* GoogleInterchangeUtilities.framework */,
+				C37DE36E9E13AFC62037DA0A7873E01A /* Frameworks */,
 			);
-			name = Frameworks;
+			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
 		3420F0923DE5C5017F3F21F840600D2A /* Pods-MedicalGame */ = {
@@ -329,220 +273,152 @@
 			path = "Target Support Files/Pods-MedicalGame";
 			sourceTree = "<group>";
 		};
-		372110576C852DFBDBA506CFE835064C /* FirebaseAuth */ = {
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				92E37284C5A235954B11B0A2CEC4FAC3 /* Frameworks */,
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
-			path = FirebaseAuth;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		38D7E3926BCF977366FA62E83AD15730 /* GoogleSymbolUtilities */ = {
+		42A41A012F89BD8FF619790117C724B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4200F64FE0FD9C3C1D1BED3882833507 /* Frameworks */,
-			);
-			path = GoogleSymbolUtilities;
-			sourceTree = "<group>";
-		};
-		3D80DE1F2F3F94835BB06D60138AB93B /* PCLBlurEffectAlert */ = {
-			isa = PBXGroup;
-			children = (
-				AE693A3E1B557EFE493F529B134E3791 /* PCLBlurEffectAlert.h */,
-				6D83774D7CB33513B13A6CEABDCF5F14 /* PCLBlurEffectAlert.swift */,
-				E65C350A57219AFE051A24B33EB5849F /* PCLBlurEffectAlert+Action.swift */,
-				2ECFDAF0349FD0171D18B1556ED859E4 /* PCLBlurEffectAlert+Controller.swift */,
-				567DBDBD31B0759AF32EE3158CFD4323 /* Support Files */,
-			);
-			path = PCLBlurEffectAlert;
-			sourceTree = "<group>";
-		};
-		4200F64FE0FD9C3C1D1BED3882833507 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				34CC231BFC57912268EEBC99CEB94822 /* GoogleSymbolUtilities.framework */,
+				EA8EC4BC8A7FA65C669E0C3C4CC505DC /* FirebaseDatabase.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		4E679D83207BBE84F23765179B9D52D0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4894FD336970C8A7E9830001740F84B3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FADD51EA75477FA9322C825DC62D6B96 /* GoogleUtilities.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		567DBDBD31B0759AF32EE3158CFD4323 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C889EC7A8D28F14FBD5EC0028122EB00 /* Info.plist */,
-				CCE08177210BA0661FFA4C1E58D09269 /* PCLBlurEffectAlert.modulemap */,
-				F8489B6998EBC639064F08AFB71897C7 /* PCLBlurEffectAlert.xcconfig */,
-				64670ED2094A5504A834A345A9830C5C /* PCLBlurEffectAlert-dummy.m */,
-				A0D6AEDD5F9B2A8FFE5526C29BB72FDF /* PCLBlurEffectAlert-prefix.pch */,
-				9F6A89618EA42BE6A7C9C14A7D08403C /* PCLBlurEffectAlert-umbrella.h */,
+				E2A469C9322D2CEC2E4E5B854A46BA58 /* EasyAnimation.modulemap */,
+				D7B279007B79B9A3BA9C656D0BE8BD88 /* EasyAnimation.xcconfig */,
+				1B115AA586FEFF78881C9BF650A71AC6 /* EasyAnimation-dummy.m */,
+				0106F316BC4877807A6241C8F7AF086C /* EasyAnimation-prefix.pch */,
+				D23CB64A5FDFA86B105082D4C0EDB1EE /* EasyAnimation-umbrella.h */,
+				F252F4079FF6AD0DDBB65917B5A7FBD8 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/PCLBlurEffectAlert";
+			path = "../Target Support Files/EasyAnimation";
 			sourceTree = "<group>";
 		};
-		580EE48C2FEDAAAA53087BD5E5BE67BF /* Core */ = {
+		5E73906C922D271DEF751CF07F6E5052 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				526562B54CB12330B2E14B771C1F46AF /* Firebase.h */,
+				CFAB5FD7A4B451CF4D43C933B2739C0B /* FirebaseCore.framework */,
 			);
-			name = Core;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		71965DDBAF565E0DA2C8F0397145E8CB /* FirebaseAnalytics */ = {
+		6CBAF5F8773F4EE6A53D1E5AA8D3D649 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B60B84FE163BF2C8599A9ACC64E977AF /* Frameworks */,
+				DE0F9BCA4C33CDB1C0F0E7C46BED5A2D /* EasyAnimation */,
+				F8436FDDD8491F60E53B3CFE9C4C6415 /* Firebase */,
+				2B591B06E86DF0294948174A47AFE91D /* FirebaseAnalytics */,
+				0D8E25A9EDF2FFA2F5B8132D5AC6A193 /* FirebaseAuth */,
+				2944FB8F9FCB8E6D4E9A478CEE2F2AA3 /* FirebaseCore */,
+				95AA48AD7E49ADAA557E5DA1BD21590A /* FirebaseDatabase */,
+				89EB90B2490D5C43FE3EF4A6CD6B7999 /* FirebaseInstanceID */,
+				A1D594B560CC9EBB81EF9BC06F6B526F /* FirebaseStorage */,
+				F6CC8911AF06A275E7B2CE0275824222 /* GoogleInterchangeUtilities */,
+				F0194A58243B708A6B3FEADCBE5B40FD /* GoogleNetworkingUtilities */,
+				A575126B86313E121ED0110137219A39 /* GoogleSymbolUtilities */,
+				BA0C9C3AED9DBBE7F365CFE08578096F /* GoogleUtilities */,
+				DF3EE7508972AE487F409461EFF0D13B /* TextFieldEffects */,
 			);
-			path = FirebaseAnalytics;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				863E60F7211A4958DE2C113CE5382838 /* Pods */,
-				EA469271E5220AE812B2763F9BBFA79F /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6CBAF5F8773F4EE6A53D1E5AA8D3D649 /* Pods */,
+				FC3422587A00D79C4AEB9BDB248D52B2 /* Products */,
 				29D4AD7127758E687A4A04ADDBD63AFC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		823D887AE58C498C44B43613ACB82852 /* FirebaseCore */ = {
+		89EB90B2490D5C43FE3EF4A6CD6B7999 /* FirebaseInstanceID */ = {
 			isa = PBXGroup;
 			children = (
-				9E7D90A2BDC508FB5CCFF9A3F59E20CB /* Frameworks */,
+				DA03BE0E29BB84496A0CDCB4448063E0 /* FIRInstanceID.h */,
+				BC95F52E827BD5A4C604D2FF7B49F9F0 /* Frameworks */,
 			);
-			path = FirebaseCore;
+			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
-		863E60F7211A4958DE2C113CE5382838 /* Pods */ = {
+		910EC92C231753B4ED96154E48044551 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1C4B6A20C2FA09E120E093129ACEF0B6 /* EasyAnimation */,
-				FE7A329C16AB4C14996A6EB27EAC2623 /* Firebase */,
-				71965DDBAF565E0DA2C8F0397145E8CB /* FirebaseAnalytics */,
-				372110576C852DFBDBA506CFE835064C /* FirebaseAuth */,
-				823D887AE58C498C44B43613ACB82852 /* FirebaseCore */,
-				8DBA5EBBB7198CB60CDF370FC6AAF6C3 /* FirebaseDatabase */,
-				041562ACDA9B6E67BE797CAFE9E3680E /* FirebaseInstanceID */,
-				AF2F06D5EADB4678DBA5E023B4A53253 /* FirebaseStorage */,
-				D48E0BC17222E46D23133FC8EA62977B /* GoogleInterchangeUtilities */,
-				054BE281C7DE86E1569B3405A4D64BDD /* GoogleNetworkingUtilities */,
-				38D7E3926BCF977366FA62E83AD15730 /* GoogleSymbolUtilities */,
-				293E5DF9F507567C3BCC13894AE383F7 /* GoogleUtilities */,
-				3D80DE1F2F3F94835BB06D60138AB93B /* PCLBlurEffectAlert */,
-				A6F204510D7EF139EA42A3951CE12296 /* TextFieldEffects */,
+				1093DD4F74B8CBD92E5F91E6ABB1CA64 /* GoogleNetworkingUtilities.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8DBA5EBBB7198CB60CDF370FC6AAF6C3 /* FirebaseDatabase */ = {
+		95AA48AD7E49ADAA557E5DA1BD21590A /* FirebaseDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				1FD8107D8EBF51578E3183AD23AD3C1B /* Frameworks */,
+				42A41A012F89BD8FF619790117C724B8 /* Frameworks */,
 			);
 			path = FirebaseDatabase;
 			sourceTree = "<group>";
 		};
-		92E37284C5A235954B11B0A2CEC4FAC3 /* Frameworks */ = {
+		9D44C612D908A46FB0A169421045BF27 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				31DE96A5EBD8C09E5D31E6F282B16420 /* FirebaseAuth.framework */,
+				E4548378428E737A3667B7D0D42818A8 /* GoogleUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9575070EEDD720BFAA425C0B5C556FDE /* Frameworks */ = {
+		A1D594B560CC9EBB81EF9BC06F6B526F /* FirebaseStorage */ = {
 			isa = PBXGroup;
 			children = (
-				C4DDA194D34B65D270F2F37EDC2E20B1 /* FirebaseStorage.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9E7D90A2BDC508FB5CCFF9A3F59E20CB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8B954EB1CC178F038758F92657861066 /* FirebaseCore.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A6F204510D7EF139EA42A3951CE12296 /* TextFieldEffects */ = {
-			isa = PBXGroup;
-			children = (
-				70844AC53857AB4E0E83ABDE32D53284 /* AkiraTextField.swift */,
-				B90FDD65DE9120EFB8B57DF8E2059175 /* HoshiTextField.swift */,
-				7BB9F9D2B8A8B7F63AFA3AEF3D82A14A /* IsaoTextField.swift */,
-				4FEB3F05B215EA47E94386E25A6FA898 /* JiroTextField.swift */,
-				18DEE26A57074B41BED252D125D20208 /* KaedeTextField.swift */,
-				0B9D907A56F8CA0F01D3142F93EB0F64 /* MadokaTextField.swift */,
-				13D6F129DB188350F0CC0680A62070D3 /* MinoruTextField.swift */,
-				9E563DE679FEAE227378B374961ABB1E /* TextFieldsEffects.swift */,
-				E4B9F178CED96B8EF3998EEDDF945E3E /* YokoTextField.swift */,
-				F518716D22338F5923BDA0E41372775E /* YoshikoTextField.swift */,
-				B342E8A1A28448A70BD7AC5E694B0C96 /* Support Files */,
-			);
-			path = TextFieldEffects;
-			sourceTree = "<group>";
-		};
-		A85C8885BDAEBE9EEDEFC24E9AAE2D42 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DA3DD6EC99970D3C400E0C49E7FE7409 /* FirebaseInstanceID.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AF2F06D5EADB4678DBA5E023B4A53253 /* FirebaseStorage */ = {
-			isa = PBXGroup;
-			children = (
-				9575070EEDD720BFAA425C0B5C556FDE /* Frameworks */,
+				B2FAE720FF3D9CB9AF84C9E460AA4F2F /* Frameworks */,
 			);
 			path = FirebaseStorage;
 			sourceTree = "<group>";
 		};
-		B342E8A1A28448A70BD7AC5E694B0C96 /* Support Files */ = {
+		A575126B86313E121ED0110137219A39 /* GoogleSymbolUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				ECBE69C6E23845B20E51856BD142949D /* Info.plist */,
-				EAF3109F6D590A5489AE29F22F578504 /* TextFieldEffects.modulemap */,
-				EB0C21C8DF295F9C225F3FEBF5EA1FFE /* TextFieldEffects.xcconfig */,
-				B33C6161C09DA11AD7492B704F807B6A /* TextFieldEffects-dummy.m */,
-				50B2CD188F48B83E4456A2BD73A62E15 /* TextFieldEffects-prefix.pch */,
-				C1D218AAF29A07F6AE76FE8AB26BADA4 /* TextFieldEffects-umbrella.h */,
+				CFEB493764592F7F677481379F64C9B6 /* Frameworks */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/TextFieldEffects";
+			path = GoogleSymbolUtilities;
 			sourceTree = "<group>";
 		};
-		B60B84FE163BF2C8599A9ACC64E977AF /* Frameworks */ = {
+		B2FAE720FF3D9CB9AF84C9E460AA4F2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BE9BA198D8EFA307F784043A077F36CF /* FirebaseAnalytics.framework */,
+				9D2676B7F13A057BCD5CCB1B8747703C /* FirebaseStorage.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B6FF714EE97FC0BBF344A17E95AF9622 /* Frameworks */ = {
+		BA0C9C3AED9DBBE7F365CFE08578096F /* GoogleUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				DC421BF0CA8F171637DED144F57DB810 /* GoogleNetworkingUtilities.framework */,
+				9D44C612D908A46FB0A169421045BF27 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC95F52E827BD5A4C604D2FF7B49F9F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC4D908CAE7C4712DDED8188CF7F6E89 /* FirebaseInstanceID.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -565,42 +441,101 @@
 			path = "Target Support Files/Pods-MedicalGameTests";
 			sourceTree = "<group>";
 		};
-		D48E0BC17222E46D23133FC8EA62977B /* GoogleInterchangeUtilities */ = {
+		C37DE36E9E13AFC62037DA0A7873E01A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2FC95B254AA9A029FB1CB42E1F251ADB /* Frameworks */,
+				3F8396BDF16D366E1F3AF286B240A1CD /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFEB493764592F7F677481379F64C9B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				252CC9A6167429EEBF5E78F9256A4EDD /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1EBE38DCD988EE9A402C54B21DD01EA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				109E345A1E77C6EA23C77CEBB2E2013F /* Info.plist */,
+				5DEF57D2C9C53AA164759F63B40C3543 /* TextFieldEffects.modulemap */,
+				6969AF0BA580F2236047F28F12690F8E /* TextFieldEffects.xcconfig */,
+				76325F510013163F8B12B2F99B88F438 /* TextFieldEffects-dummy.m */,
+				698D240E5823CC1CA16DE2B75A843F54 /* TextFieldEffects-prefix.pch */,
+				4BE04FC009A915447C6E738B9E08E7E5 /* TextFieldEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		DE0F9BCA4C33CDB1C0F0E7C46BED5A2D /* EasyAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				B0317CECA21EF043C3117883772240C5 /* EAAnimationFuture.swift */,
+				B98D2CB234CEBB04554C433CC3616C0E /* EasyAnimation.swift */,
+				83347F57022BEB796275578EFDD9D29D /* RBBBlockBasedArray.swift */,
+				F1290D377617D2B161E5CEDBD8D5E638 /* RBBLinearInterpolation.swift */,
+				A6CB3927820ED9E98A6E151F800288FB /* RBBSpringAnimation.swift */,
+				4E679D83207BBE84F23765179B9D52D0 /* Support Files */,
+			);
+			path = EasyAnimation;
+			sourceTree = "<group>";
+		};
+		DF3EE7508972AE487F409461EFF0D13B /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				57D2E993275E71C7BA5043E099A69634 /* AkiraTextField.swift */,
+				8109614850E3E6FAEAA63724A7F8CCFE /* HoshiTextField.swift */,
+				8ECC9A17C507862E41D788E4D03F506F /* IsaoTextField.swift */,
+				63BFBB84DF377D549A1061AD19432F3A /* JiroTextField.swift */,
+				690C0BD9B800A61624F1C1E5E46AF530 /* KaedeTextField.swift */,
+				2011C428420C4042BC63281303A072D8 /* MadokaTextField.swift */,
+				604CD499D96B2F991A7C39B9759F320E /* MinoruTextField.swift */,
+				3E2CAB4B03454DB8EAF05AA1C5FCF58F /* TextFieldsEffects.swift */,
+				A6397233BAF18460CAAA54A76FFBB50D /* YokoTextField.swift */,
+				5BA881EF2C3D6E294840144188230E05 /* YoshikoTextField.swift */,
+				D1EBE38DCD988EE9A402C54B21DD01EA /* Support Files */,
+			);
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		F0194A58243B708A6B3FEADCBE5B40FD /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				910EC92C231753B4ED96154E48044551 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		F6CC8911AF06A275E7B2CE0275824222 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				182F34F36F00344D20E0A48910BC4561 /* Frameworks */,
 			);
 			path = GoogleInterchangeUtilities;
 			sourceTree = "<group>";
 		};
-		EA469271E5220AE812B2763F9BBFA79F /* Products */ = {
+		F8436FDDD8491F60E53B3CFE9C4C6415 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				0325EF07B466FA8B87568C12CE80383E /* EasyAnimation.framework */,
-				3D7C8C280AEDB5D06E5DF4D712D8D632 /* PCLBlurEffectAlert.framework */,
-				8DE6832E8CEE23FDBA119F568E8A9F65 /* Pods_MedicalGame.framework */,
-				BD5D11BDCDC4B7F21AA80F45A8E70179 /* Pods_MedicalGameTests.framework */,
-				BA24F85511E3699E64A5F0C3F29272CE /* Pods_MedicalGameUITests.framework */,
-				6CBBB2464F4B420EFED1BF7DFD984037 /* TextFieldEffects.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
-				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		FE7A329C16AB4C14996A6EB27EAC2623 /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				580EE48C2FEDAAAA53087BD5E5BE67BF /* Core */,
+				12BE460C1E76BB7401376280DF8052F4 /* Core */,
 			);
 			path = Firebase;
+			sourceTree = "<group>";
+		};
+		FC3422587A00D79C4AEB9BDB248D52B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E9F8458CF0397224590259A7C57DF0C /* EasyAnimation.framework */,
+				9E4C369EE4ECFF22E6F5CC3A629BBA21 /* Pods_MedicalGame.framework */,
+				974EB18A803D368F9097D751219F07D1 /* Pods_MedicalGameTests.framework */,
+				4B44EBCA01423023D40C29D51F1EA371 /* Pods_MedicalGameUITests.framework */,
+				C4B9E1C75883ED8722A5619D5BCB3499 /* TextFieldEffects.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -622,28 +557,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B3748847FF1030B1281B85AF24BD7E9 /* Headers */ = {
+		8E43E7B3B93338592F553C7F88BF6B7F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18200BA1BE6CB74B0E5CFD17952B3A43 /* PCLBlurEffectAlert-umbrella.h in Headers */,
-				961D0ECC07EE956696D62D69E1FA1504 /* PCLBlurEffectAlert.h in Headers */,
+				AA23B7A28249B4A6D08CEE50D236B4A1 /* Pods-MedicalGame-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F80CA1CB8FAD47C0167E9DEA7D36462 /* Headers */ = {
+		9EBA9B90CF09A6FF3F913DAF638AB1CB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C8C1DFED65B56AA6AF4E61FDF291848 /* TextFieldEffects-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4509C9E6C3B4585A85456A6470513BFB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F97D632857613D50690EE87DE8C716CE /* Pods-MedicalGame-umbrella.h in Headers */,
+				866DEEB140CFF4083D999A89B54213BA /* TextFieldEffects-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,6 +584,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		20F920DBFA68F0D089A0FB6A5656EA86 /* TextFieldEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB8B335D233BBCE5DE85E4A708CC107 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildPhases = (
+				524DEEF79CE833C19CAD9F49DDDBD835 /* Sources */,
+				9B151E06A98A19865428D056FB6241D4 /* Frameworks */,
+				9EBA9B90CF09A6FF3F913DAF638AB1CB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldEffects;
+			productName = TextFieldEffects;
+			productReference = C4B9E1C75883ED8722A5619D5BCB3499 /* TextFieldEffects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FDA43085DF6D774D7B524ECD91508FE /* Pods-MedicalGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6343C087D7B60FB87999C19A5205D6A3 /* Build configuration list for PBXNativeTarget "Pods-MedicalGame" */;
+			buildPhases = (
+				7C3C2E02956E01C61B54B7D3E454561B /* Sources */,
+				552A5B59FB4EF112B668D2E9E27C16A7 /* Frameworks */,
+				8E43E7B3B93338592F553C7F88BF6B7F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5DEA926892D710591EE2CDF0729EC28 /* PBXTargetDependency */,
+				16169A35C491F72EC16708E424AE6581 /* PBXTargetDependency */,
+			);
+			name = "Pods-MedicalGame";
+			productName = "Pods-MedicalGame";
+			productReference = 9E4C369EE4ECFF22E6F5CC3A629BBA21 /* Pods_MedicalGame.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		6D4E6BA4324332B8534594911FF6D613 /* Pods-MedicalGameUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22F921867C420C4119C8D93E0039CD8F /* Build configuration list for PBXNativeTarget "Pods-MedicalGameUITests" */;
@@ -672,44 +634,7 @@
 			);
 			name = "Pods-MedicalGameUITests";
 			productName = "Pods-MedicalGameUITests";
-			productReference = BA24F85511E3699E64A5F0C3F29272CE /* Pods_MedicalGameUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		92E0C38F7E88711D45482EEE4B7C8C3F /* Pods-MedicalGame */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 403048B930240527BE3F93A67FEFEE15 /* Build configuration list for PBXNativeTarget "Pods-MedicalGame" */;
-			buildPhases = (
-				22302DDB8105968EF0924AE57BB6F354 /* Sources */,
-				2077A296DC4836DEBB30B8A4347CA092 /* Frameworks */,
-				4509C9E6C3B4585A85456A6470513BFB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F2D9F2F18932F5AA522AD05CA4EC63A4 /* PBXTargetDependency */,
-				8A7EE6DBD47929F3F866FA8AA21C447A /* PBXTargetDependency */,
-				4CB463D3C0E31F3501B53D660E414E07 /* PBXTargetDependency */,
-			);
-			name = "Pods-MedicalGame";
-			productName = "Pods-MedicalGame";
-			productReference = 8DE6832E8CEE23FDBA119F568E8A9F65 /* Pods_MedicalGame.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A1FE4E7777C6B963B963A9FBEC603519 /* PCLBlurEffectAlert */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9B4384AD0A078726882079D3385B9C30 /* Build configuration list for PBXNativeTarget "PCLBlurEffectAlert" */;
-			buildPhases = (
-				94A4004C2327B3F305CEFFEBF3250708 /* Sources */,
-				8E697F8F53E8660EEE672F820AB082A0 /* Frameworks */,
-				3B3748847FF1030B1281B85AF24BD7E9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PCLBlurEffectAlert;
-			productName = PCLBlurEffectAlert;
-			productReference = 3D7C8C280AEDB5D06E5DF4D712D8D632 /* PCLBlurEffectAlert.framework */;
+			productReference = 4B44EBCA01423023D40C29D51F1EA371 /* Pods_MedicalGameUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A376E868ED408EE8EEBD1DDBCE639EF5 /* EasyAnimation */ = {
@@ -726,24 +651,7 @@
 			);
 			name = EasyAnimation;
 			productName = EasyAnimation;
-			productReference = 0325EF07B466FA8B87568C12CE80383E /* EasyAnimation.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BEEFB17DAC92DA316153B58310A4F7FC /* TextFieldEffects */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FDEC51328E0641086D223C0B015D6EC7 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
-			buildPhases = (
-				DB06427A83CE93DF6B73DCFEA12E3786 /* Sources */,
-				0498C4771987F7836F5192E19330A00E /* Frameworks */,
-				3F80CA1CB8FAD47C0167E9DEA7D36462 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TextFieldEffects;
-			productName = TextFieldEffects;
-			productReference = 6CBBB2464F4B420EFED1BF7DFD984037 /* TextFieldEffects.framework */;
+			productReference = 9E9F8458CF0397224590259A7C57DF0C /* EasyAnimation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E9F50DBD4E9BA8A6B8332CD0CAD2C809 /* Pods-MedicalGameTests */ = {
@@ -760,7 +668,7 @@
 			);
 			name = "Pods-MedicalGameTests";
 			productName = "Pods-MedicalGameTests";
-			productReference = BD5D11BDCDC4B7F21AA80F45A8E70179 /* Pods_MedicalGameTests.framework */;
+			productReference = 974EB18A803D368F9097D751219F07D1 /* Pods_MedicalGameTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -780,16 +688,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = EA469271E5220AE812B2763F9BBFA79F /* Products */;
+			productRefGroup = FC3422587A00D79C4AEB9BDB248D52B2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A376E868ED408EE8EEBD1DDBCE639EF5 /* EasyAnimation */,
-				A1FE4E7777C6B963B963A9FBEC603519 /* PCLBlurEffectAlert */,
-				92E0C38F7E88711D45482EEE4B7C8C3F /* Pods-MedicalGame */,
+				4FDA43085DF6D774D7B524ECD91508FE /* Pods-MedicalGame */,
 				E9F50DBD4E9BA8A6B8332CD0CAD2C809 /* Pods-MedicalGameTests */,
 				6D4E6BA4324332B8534594911FF6D613 /* Pods-MedicalGameUITests */,
-				BEEFB17DAC92DA316153B58310A4F7FC /* TextFieldEffects */,
+				20F920DBFA68F0D089A0FB6A5656EA86 /* TextFieldEffects */,
 			);
 		};
 /* End PBXProject section */
@@ -800,14 +707,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3356089A17618C70AF2A287DC8F5C0E8 /* Pods-MedicalGameTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		22302DDB8105968EF0924AE57BB6F354 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C1B8FD1AE3ECC069B0D27DB4EDDDD6D0 /* Pods-MedicalGame-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -824,6 +723,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		524DEEF79CE833C19CAD9F49DDDBD835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2BDAC9713D834C71426B29C9CA73DC /* AkiraTextField.swift in Sources */,
+				F61626DB14BDCBDED5ABB3AB463FA9D5 /* HoshiTextField.swift in Sources */,
+				BAD4EF669D7078FFBB89EB1DF80FCBD7 /* IsaoTextField.swift in Sources */,
+				D24CCAB5E5BD26398A4458179EF4BBD1 /* JiroTextField.swift in Sources */,
+				0CD6B7EC096756F419E09C3FB3992D2A /* KaedeTextField.swift in Sources */,
+				0FD9B927A723E1B4B0C49DEA7D934474 /* MadokaTextField.swift in Sources */,
+				D9DEDD705827D4E1E972D64432F6354C /* MinoruTextField.swift in Sources */,
+				7C9F7ABA5C1EC4F949273F89E589F30C /* TextFieldEffects-dummy.m in Sources */,
+				B05B09759D7DBED1451151969B2C049C /* TextFieldsEffects.swift in Sources */,
+				753B7BFD37407874DC9EA121D929D670 /* YokoTextField.swift in Sources */,
+				E1FCF43BB07D8AEEC9272988BF5D7539 /* YoshikoTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EE37AEE0C0298C7242E8C4ED77F2FB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -832,55 +749,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94A4004C2327B3F305CEFFEBF3250708 /* Sources */ = {
+		7C3C2E02956E01C61B54B7D3E454561B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				017ADFB77880F68ECF436BDF89F561E7 /* PCLBlurEffectAlert+Action.swift in Sources */,
-				3EB7F5178352793FF707E5769F53FDF0 /* PCLBlurEffectAlert+Controller.swift in Sources */,
-				6ACFD27D20E7ED815B4EC19245E9545B /* PCLBlurEffectAlert-dummy.m in Sources */,
-				BDBBD8845CE9D7AF7CE68A98FEC70260 /* PCLBlurEffectAlert.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB06427A83CE93DF6B73DCFEA12E3786 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				066B73125D64AEE1FF9A511572927BC3 /* AkiraTextField.swift in Sources */,
-				BEF65BEA8DB23C1D0606517D152935A0 /* HoshiTextField.swift in Sources */,
-				9C106EC88DB7886A3DEB4C8EB41B67CC /* IsaoTextField.swift in Sources */,
-				83A070FAF021135EE8158E4C5FFE3E61 /* JiroTextField.swift in Sources */,
-				596342074842B810CA5F6EB17455B491 /* KaedeTextField.swift in Sources */,
-				4D2C0293326D4AEE5D6E9F53DE302361 /* MadokaTextField.swift in Sources */,
-				B4C037386A6090BB66592FFE2EEB8D20 /* MinoruTextField.swift in Sources */,
-				F37F46FD673D3F439854CFDAFB1D9AA2 /* TextFieldEffects-dummy.m in Sources */,
-				CA72DAF32203390D1F9334BD9BA46FAC /* TextFieldsEffects.swift in Sources */,
-				3419929618C06CD2037057F9A5013593 /* YokoTextField.swift in Sources */,
-				38CFF9D208A2F121DEAB739FA3A791A7 /* YoshikoTextField.swift in Sources */,
+				5BA193EF303C8ACAB44B847947F22E5A /* Pods-MedicalGame-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4CB463D3C0E31F3501B53D660E414E07 /* PBXTargetDependency */ = {
+		16169A35C491F72EC16708E424AE6581 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TextFieldEffects;
-			target = BEEFB17DAC92DA316153B58310A4F7FC /* TextFieldEffects */;
-			targetProxy = FAA15E50DF0C9F59AB5B63ED2B94BBDC /* PBXContainerItemProxy */;
+			target = 20F920DBFA68F0D089A0FB6A5656EA86 /* TextFieldEffects */;
+			targetProxy = 83472F56E120799A3C5C035BD17D64B2 /* PBXContainerItemProxy */;
 		};
-		8A7EE6DBD47929F3F866FA8AA21C447A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PCLBlurEffectAlert;
-			target = A1FE4E7777C6B963B963A9FBEC603519 /* PCLBlurEffectAlert */;
-			targetProxy = 1CDE85702F7D518EB2558CD662071B0B /* PBXContainerItemProxy */;
-		};
-		F2D9F2F18932F5AA522AD05CA4EC63A4 /* PBXTargetDependency */ = {
+		A5DEA926892D710591EE2CDF0729EC28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EasyAnimation;
 			target = A376E868ED408EE8EEBD1DDBCE639EF5 /* EasyAnimation */;
-			targetProxy = FD246BC5CC9A1A2070757CEF2A179EF6 /* PBXContainerItemProxy */;
+			targetProxy = 80E5B5B4CC9760DE2C69A46A3D0D72A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -960,67 +850,6 @@
 			};
 			name = Debug;
 		};
-		21492B9E6C4FC46F4AF8A36D4149CDFB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB0C21C8DF295F9C225F3FEBF5EA1FFE /* TextFieldEffects.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TextFieldEffects;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		39ED397B7FC49E11CFC1473018051F71 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8489B6998EBC639064F08AFB71897C7 /* PCLBlurEffectAlert.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PCLBlurEffectAlert/PCLBlurEffectAlert-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PCLBlurEffectAlert/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PCLBlurEffectAlert/PCLBlurEffectAlert.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PCLBlurEffectAlert;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		441387F1531BCEF2DF1802F113FDBD90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D75D7A33CA173BD4F55BD5DB7CBA3442 /* Pods-MedicalGameUITests.debug.xcconfig */;
@@ -1054,67 +883,7 @@
 			};
 			name = Debug;
 		};
-		56EB346C7B40900970508A7800E198CC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72B78350ECE658F538FC9BE2A07B0DCD /* EasyAnimation.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EasyAnimation/EasyAnimation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EasyAnimation/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EasyAnimation/EasyAnimation.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = EasyAnimation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6A32369D9140A33A6839E5BA0EF4A39B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8489B6998EBC639064F08AFB71897C7 /* PCLBlurEffectAlert.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PCLBlurEffectAlert/PCLBlurEffectAlert-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PCLBlurEffectAlert/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PCLBlurEffectAlert/PCLBlurEffectAlert.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PCLBlurEffectAlert;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		73B08FC044D50D8E9DB10F0EFFE4F75E /* Debug */ = {
+		4DCD7D816646F2E90B1873B9C28967C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 87023AEC522C5DC1918825CE62912762 /* Pods-MedicalGame.debug.xcconfig */;
 			buildSettings = {
@@ -1147,6 +916,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		56EB346C7B40900970508A7800E198CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7B279007B79B9A3BA9C656D0BE8BD88 /* EasyAnimation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EasyAnimation/EasyAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyAnimation/EasyAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EasyAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8717762AE79467F0E3322797617CC02E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1181,9 +980,40 @@
 			};
 			name = Release;
 		};
+		98B23F40CE6C20157D380E20A6BC5FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6969AF0BA580F2236047F28F12690F8E /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		A1A85F53B6EE608789D6411589889F3D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72B78350ECE658F538FC9BE2A07B0DCD /* EasyAnimation.xcconfig */;
+			baseConfigurationReference = D7B279007B79B9A3BA9C656D0BE8BD88 /* EasyAnimation.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1283,38 +1113,7 @@
 			};
 			name = Release;
 		};
-		EE3C242011C22566C19D07C4EC3D9D43 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB0C21C8DF295F9C225F3FEBF5EA1FFE /* TextFieldEffects.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = TextFieldEffects;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FC8CC4841F8664C0BB0862B88CDEA850 /* Release */ = {
+		EDF9CDF791C5E66C8BDDA79B2BF819C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 73EF2D16A6D47E2538879285EC096BD9 /* Pods-MedicalGame.release.xcconfig */;
 			buildSettings = {
@@ -1341,6 +1140,36 @@
 				PRODUCT_NAME = Pods_MedicalGame;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0719672E5A3A0F12E0557F2E2BAF2D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6969AF0BA580F2236047F28F12690F8E /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1377,11 +1206,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		403048B930240527BE3F93A67FEFEE15 /* Build configuration list for PBXNativeTarget "Pods-MedicalGame" */ = {
+		4BB8B335D233BBCE5DE85E4A708CC107 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73B08FC044D50D8E9DB10F0EFFE4F75E /* Debug */,
-				FC8CC4841F8664C0BB0862B88CDEA850 /* Release */,
+				98B23F40CE6C20157D380E20A6BC5FE3 /* Debug */,
+				F0719672E5A3A0F12E0557F2E2BAF2D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6343C087D7B60FB87999C19A5205D6A3 /* Build configuration list for PBXNativeTarget "Pods-MedicalGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DCD7D816646F2E90B1873B9C28967C7 /* Debug */,
+				EDF9CDF791C5E66C8BDDA79B2BF819C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1391,24 +1229,6 @@
 			buildConfigurations = (
 				AB34656ED35327D54426A710219524E9 /* Debug */,
 				8717762AE79467F0E3322797617CC02E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9B4384AD0A078726882079D3385B9C30 /* Build configuration list for PBXNativeTarget "PCLBlurEffectAlert" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				39ED397B7FC49E11CFC1473018051F71 /* Debug */,
-				6A32369D9140A33A6839E5BA0EF4A39B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FDEC51328E0641086D223C0B015D6EC7 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EE3C242011C22566C19D07C4EC3D9D43 /* Debug */,
-				21492B9E6C4FC46F4AF8A36D4149CDFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

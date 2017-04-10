@@ -37,7 +37,6 @@ PODS:
   - GoogleSymbolUtilities (1.1.2)
   - GoogleUtilities (1.3.2):
     - GoogleSymbolUtilities (~> 1.1)
-  - PCLBlurEffectAlert (1.1.0)
   - TextFieldEffects (1.3.0)
 
 DEPENDENCIES:
@@ -46,7 +45,6 @@ DEPENDENCIES:
   - Firebase/Core
   - Firebase/Database
   - Firebase/Storage
-  - PCLBlurEffectAlert
   - TextFieldEffects
 
 SPEC CHECKSUMS:
@@ -62,9 +60,8 @@ SPEC CHECKSUMS:
   GoogleNetworkingUtilities: 3edd3a8161347494f2da60ea0deddc8a472d94cb
   GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
   GoogleUtilities: 8bbc733218aad26306f9d4a253823986110e3358
-  PCLBlurEffectAlert: cf9fe1d142dad012fe806b96844e2cf72e0bd366
   TextFieldEffects: ef594746f17997c813e07633f8ae5acaf9b04f27
 
-PODFILE CHECKSUM: 9da472f8b81038fd157141084da8e3f54ff7297a
+PODFILE CHECKSUM: c6b9fe11334697da394119d0c7b6e31e104cecde
 
 COCOAPODS: 1.0.1

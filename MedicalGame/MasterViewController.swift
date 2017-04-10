@@ -59,8 +59,6 @@ class MasterViewController: UIViewController {
             self.view.layoutIfNeeded()
             }, completion: nil)
             
-            animationPerformedOnce = true
-        }
         
         UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseInOut, animations: {
             self.OptionButtonConstraint.constant += self.view.bounds.width
@@ -69,7 +67,7 @@ class MasterViewController: UIViewController {
         
         animationPerformedOnce = true
     }
-    
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

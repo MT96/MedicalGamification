@@ -478,6 +478,7 @@
                             <constraint firstItem="30x-Rw-FHW" firstAttribute="top" secondItem="OcR-V6-wL7" secondAttribute="bottom" constant="13" id="bvN-7B-gsz"/>
                             <constraint firstItem="30x-Rw-FHW" firstAttribute="centerX" secondItem="fh3-zq-cYm" secondAttribute="centerX" id="kKn-4n-TCv"/>
                             <constraint firstItem="bOQ-3L-Be6" firstAttribute="centerX" secondItem="7yu-1s-KRe" secondAttribute="centerX" id="mw5-jt-KWE"/>
+                            <constraint firstItem="k6P-bK-Juj" firstAttribute="top" secondItem="uIL-Pb-WUB" secondAttribute="bottom" constant="161" id="na2-HZ-Ncm"/>
                             <constraint firstItem="qKH-1R-Fp2" firstAttribute="top" secondItem="EPb-lD-clz" secondAttribute="bottom" constant="25" id="p11-Ma-o2x"/>
                             <constraint firstItem="7yu-1s-KRe" firstAttribute="top" secondItem="bOQ-3L-Be6" secondAttribute="bottom" constant="50" id="pbU-ep-CWe"/>
                             <constraint firstItem="uIL-Pb-WUB" firstAttribute="top" secondItem="7yu-1s-KRe" secondAttribute="bottom" constant="8" symbolic="YES" id="plX-BK-FPS"/>
@@ -636,6 +637,13 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yUq-4X-3Gp">
+                                <frame key="frameInset" minX="28" minY="87" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="h9E-ty-KoI" kind="show" id="K3A-1Y-fwE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -972,7 +980,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="UK3-ow-4WC"/>
-        <segue reference="cbw-Jc-Meb"/>
         <segue reference="V9c-uU-CiE"/>
+        <segue reference="cbw-Jc-Meb"/>
     </inferredMetricsTieBreakers>
 </document>
